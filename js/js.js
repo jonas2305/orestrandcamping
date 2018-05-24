@@ -1,3 +1,20 @@
+
+
+$(document).ready (function(){
+
+    // JS TIL OVERSIGTSKORT
+
+    $("#dotEt").click(function () {
+        $("#strandVideo").show('100');
+    });
+
+
+
+
+});
+
+//JS TIL GOOGLE MAPS
+
 function myMap() {
     var myCenter = new google.maps.LatLng(55.006643, 11.8726502);
     var mapCanvas = document.getElementById("googleMaps");

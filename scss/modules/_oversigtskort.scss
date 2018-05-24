@@ -1,0 +1,31 @@
+
+
+.oversigtskort{
+  position: relative;
+  background-image: url("http://www.jonasbonde.dk/wp-content/uploads/2018/05/kort.jpg");
+  height: 551px;
+  width: 1200px;
+  margin:auto;
+  #dotEt{
+    background-color: $color-pri-red;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    position: absolute;
+    top: 350px;
+    left: 80px;
+    cursor: pointer;
+    opacity: 0.85;
+    &:hover{
+      opacity: 1;
+    }
+  }
+  #strandVideo{
+    height: 100px;
+    width: 200px;
+    background-color: $color-pri-lightblue;
+    display: none;
+    text-align: center;
+
+  }
+}

@@ -3,4 +3,29 @@
   height: 500px;
   width: 100%; }
 
+.oversigtskort {
+  position: relative;
+  background-image: url("http://www.jonasbonde.dk/wp-content/uploads/2018/05/kort.jpg");
+  height: 551px;
+  width: 1200px;
+  margin: auto; }
+  .oversigtskort #dotEt {
+    background-color: #D05148;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    position: absolute;
+    top: 350px;
+    left: 80px;
+    cursor: pointer;
+    opacity: 0.85; }
+    .oversigtskort #dotEt:hover {
+      opacity: 1; }
+  .oversigtskort #strandVideo {
+    height: 100px;
+    width: 200px;
+    background-color: #BEDCCE;
+    display: none;
+    text-align: center; }
+
 /*# sourceMappingURL=finalStyle.css.map */
