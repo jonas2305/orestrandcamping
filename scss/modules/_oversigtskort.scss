@@ -7,13 +7,14 @@
   width: 1200px;
   margin:auto;
   .dot{
-    background-color: $color-pri-red;
-    width: 20px;
-    height: 20px;
+    color: $color-pri-red;
+    width: 40px;
+    height: 40px;
     border-radius: 10px;
     position: absolute;
     cursor: pointer;
     opacity: 0.85;
+    font-size: 2em;
     &:hover{
       opacity: 1;
     }

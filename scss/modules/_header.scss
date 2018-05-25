@@ -1,0 +1,106 @@
+
+
+//HEADER STYLING
+header{
+  //Mobil logo vises og styles
+  .logo-mobil{
+    display: block;
+    position: relative;
+    z-index: 2;
+    top: 10px;
+    left: 10px;
+    img{
+      width: 100px;
+    }
+  }
+  //Web logo skjules
+  .logo-web{
+    display: none;
+  }
+  //Top nav styling
+  .topnav{
+    position: absolute;
+    top: 30px;
+    right: 20px;
+  }
+  //Menupunkter skjules
+  .topnav a{
+    display: none;
+  }
+  //Burgermenu - ikon
+  .topnav a.icon{
+    float: right;
+    display: block;
+    margin-top: -10px;
+    color: $color-pri-darkblue;
+    text-decoration: none;
+  }
+  //Styling af aktiv menu
+  .topnav.responsive{
+    position: relative;
+    height: 100%;
+  }
+  //Styling af aktivt menuikon
+  .topnav.responsive .icon{
+    position: absolute;
+    right: 0;
+    top: -80px;
+  }
+  //Styling af aktive menupunkter
+  .topnav.responsive a{
+    float: none;
+    display: block;
+    text-align: center;
+  }
+  //CSS GÆLDER KUN FOR MOBIL-HEADER (BURGERMENU)
+  @media screen and(min-width: 900px){
+
+    //Styler logo på mobil
+    .logo-mobil{
+      display: none;
+      position: static;
+      z-index: -1;
+      a{
+        img{
+          width: 80px;
+          margin: auto;
+        }
+      }
+    }
+    //Styler web logo
+    .logo-web{
+      display: block;
+      a{
+        img{
+          display: flex;
+          margin: 5px 30px;
+          width: 150px;
+          padding-top: 15px;
+        }
+      }
+    }
+    //Styler top nav-bar
+    .topnav{
+      .content{
+        display: flex;
+      }
+      //Styler menupunkter
+      a{
+        display: block;
+        width: auto;
+        color: $color-pri-black;
+        text-align: center;
+        padding: 20px 20px;
+        text-decoration: none;
+        font-size: 1.5em;
+        font-family: $font-primary;
+        &:hover{
+          background-color: $color-pri-lightblue;
+        }
+      }
+      .icon{
+        display: none!important;
+      }
+    }
+  }
+}
