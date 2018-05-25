@@ -5,7 +5,7 @@
     <title>Test af kortfunktion</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="scss/finalStyle.css">
-
+    <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
 
 </head>
 <body>
@@ -13,23 +13,43 @@
 
 <div class="oversigtskort">
 
-    <div class="dot" id="dotEt"></div>
-    <div class="videoBeskrivelse" id="strandVideo">
-        <h2>Velkommen til stranden</h2>
-    </div>
-    <div class="dot" id="dotTo"></div>
-    <div class="videoBeskrivelse" id="kioskVideo">
-        <h2>Velkommen til kiosken</h2>
-    </div>
-    <div class="dot" id="dotTre"></div>
-    <div class="videoBeskrivelse" id="hytteVideo">
-        <h2>Velkommen til hytterne</h2>
-    </div>
-    <div class="dot" id="dotFire"></div>
-    <div class="videoBeskrivelse" id="minigolfVideo">
-        <h2>Velkommen til minigolfbanen</h2>
-    </div>
+    <div class="dot" data-dotid="video1" id="dotEt"></div>
+    <div class="dot" data-dotid="video2" id="dotTo"></div>
+    <div class="dot" data-dotid="video3" id="dotTre"></div>
+    <div class="dot" data-dotid="video4" id="dotFire"></div>
 
+    <div class="videoBeskrivelse" id="video1">
+        <div class="videoBeskrivelseContent">
+            <div class="overlayClose">
+                <i class="fas fa-times"></i>
+            </div>
+            <h2>Velkommen til stranden</h2>
+        </div>
+    </div>
+    <div class="videoBeskrivelse" id="video2">
+        <div class="videoBeskrivelseContent">
+            <div class="overlayClose">
+                <i class="fas fa-times"></i>
+            </div>
+            <h2>Velkommen til kiosken</h2>
+        </div>
+    </div>
+    <div class="videoBeskrivelse" id="video3">
+        <div class="videoBeskrivelseContent">
+            <div class="overlayClose">
+                <i class="fas fa-times"></i>
+            </div>
+            <h2>Velkommen til hytterne</h2>
+        </div>
+    </div>
+    <div class="videoBeskrivelse" id="video4">
+        <div class="videoBeskrivelseContent">
+            <div class="overlayClose">
+                <i class="fas fa-times"></i>
+            </div>
+            <h2>Velkommen til minigolfbanen</h2>
+        </div>
+    </div>
 </div>
 
 

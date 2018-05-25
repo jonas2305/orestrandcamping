@@ -1,26 +1,15 @@
 
-$(document).ready (function(){
+$(document).ready (function () {
 
 
-
-    //jQuery til at åbne burgermenu
-    $("#dotEt").click(function () {
-        $("#strandVideo").show('100');
+    $(".dot").click(function () {
+        var dotId = $(this).attr('data-dotid');
+        $('#'+dotId).show();
     });
 
-    $("#dotTo").click(function () {
-        $("#kioskVideo").show('100');
+    $(".overlayClose").click(function () {
+        $(".videoBeskrivelse").hide();
     });
-
-    $("#dotTre").click(function () {
-        $("#hytteVideo").show('100');
-    });
-
-    $("#dotFire").click(function () {
-        $("#minigolfVideo").show('100');
-    });
-
-
 
 
 });

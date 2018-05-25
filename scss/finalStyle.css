@@ -20,12 +20,33 @@
     .oversigtskort .dot:hover {
       opacity: 1; }
   .oversigtskort .videoBeskrivelse {
-    height: 100px;
-    width: 200px;
-    background-color: #BEDCCE;
-    display: none;
-    text-align: center;
-    position: relative; }
+    height: 551px;
+    width: 1200px;
+    display: none; }
+    .oversigtskort .videoBeskrivelse .videoBeskrivelseContent {
+      background-color: rgba(27, 35, 42, 0.8);
+      text-align: center;
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      width: 1200px;
+      height: 551px; }
+      .oversigtskort .videoBeskrivelse .videoBeskrivelseContent h2 {
+        background-color: #BEDCCE;
+        padding: 100px 200px;
+        width: 400px;
+        position: relative;
+        margin: auto; }
+      .oversigtskort .videoBeskrivelse .videoBeskrivelseContent .overlayClose {
+        position: absolute;
+        top: 40px;
+        right: 40px;
+        font-size: 30px;
+        color: #BEDCCE;
+        cursor: pointer; }
+        .oversigtskort .videoBeskrivelse .videoBeskrivelseContent .overlayClose:hover {
+          color: #FEF5DC; }
   .oversigtskort #dotEt {
     top: 350px;
     left: 80px; }
