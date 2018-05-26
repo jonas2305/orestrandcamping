@@ -1,0 +1,43 @@
+
+
+footer{
+  margin-bottom: 50px;
+  .footerInformationer {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    .footerIndhold {
+      width: 20%;
+      p {
+        line-height: 1.4;
+      }
+      img {
+        width: 100%;
+        max-width: 220px;
+        margin-top: 24px;
+      }
+    }
+  }
+  .linebreakFooter{
+    background-color: $color-pri-darkblue;
+    height: 1px;
+    width: 80%;
+    margin: 30px auto;
+  }
+  .footerCopySocial{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    margin: auto;
+    a{
+      font-size: 3em;
+      margin-left: 20px;
+      color: $color-pri-darkblue;
+      &:hover{
+        color: $color-pri-black;
+      }
+    }
+  }
+  
+}
