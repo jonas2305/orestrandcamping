@@ -89,6 +89,9 @@ p {
       margin-left: 10%;
       margin-top: 5%; }
 
+.mainMargin {
+  margin-top: 40%; }
+
 footer {
   margin-bottom: 50px; }
   footer .footerInformationer {
