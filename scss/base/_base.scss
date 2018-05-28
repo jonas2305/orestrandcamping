@@ -15,6 +15,7 @@ $font-primary-text: 'comfortaa', sans-serif;
 // SIKRE, AT DER IKKE ER EKSTRA MARGEN
 html, body{
   margin: 0px;
+  height: 100%!important;
 }
 
 
@@ -114,9 +115,10 @@ p{
   height: 50%;
   overflow: hidden;
   img{
-    width: 100%;
+    width: 110%;
     position: relative;
-    bottom: 30%;
+    float: right;
+    bottom: 15%;
   }
   .sidetiteloverskrift{
     position: absolute;
