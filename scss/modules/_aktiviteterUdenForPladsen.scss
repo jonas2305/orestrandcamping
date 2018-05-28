@@ -1,6 +1,6 @@
-.mainFilter{
+.aktiviteterUdenForPladsen{
   width: 80%;
-  margin: 5% auto;
+  margin: 15% auto 5% auto;
 }
 
 .filterKnapper{
@@ -24,7 +24,16 @@
   .aktivitetElement{
     background-color: $color-pri-lightblue;
     padding: 20px;
-    width: 150px;
+    width: 180px;
     margin: 10px;
+    h3{
+      margin: 5px 0;
+    }
+    p{
+      margin: 5px 0 20px 0;
+    }
+    img{
+      width: 100%;
+    }
   }
 }

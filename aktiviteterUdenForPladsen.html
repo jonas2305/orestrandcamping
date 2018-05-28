@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Ore Strand Camping - Aktiviteter</title>
+    <title>Ore Strand Camping - Uden for pladsen</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="scss/finalStyle.css">
     <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
@@ -10,7 +10,6 @@
 </head>
 <body>
 
-<!--HEADER-->
 <header>
     <div class="logo-mobil">
         <a href="index.html" class="logo">
@@ -37,8 +36,6 @@
     </div>
 </header>
 
-<!--MAIN INDHOLD PÅ SIDEN-->
-<main class="mainMargin">
 
     <div class="sidetitel">
         <img src="images/stemningsbilleder/OreStrandCampingWEB-9388.jpg">
@@ -47,32 +44,79 @@
         </div>
     </div>
 
-    <article class="indholdselement">
-        <div class="indholdstekst">
-            <h2>Aktiviteter på pladsen</h2>
-            <p>Vi har massere af aktiviteter på campingpladsen. Der er rig mulighed for underholdning til børn og
-                voksne i alle aldre. Derudover har vi en lækker strand, med en badebro, der fører direkte ud til den reneste sandstrand. Det er et besøg værd! </p>
-            <a class="btnBig" href="kortTest.html">Læs mere her</a>
+<div class="aktiviteterUdenForPladsen">
+
+    <div class="filterKnapper">
+        <button id="all">Alle aktiviteter</button>
+        <button id="15km">0-15km</button>
+        <button id="30km">15-30km</button>
+        <button id="60km">30-60km</button>
+        <button id="60kmPlus">60km +</button>
+    </div>
+
+    <div class="aktivitetElementWrapper">
+        <div class="aktivitetElement 60kmPlus">
+            <img src="images/aktiviteterIOmrådet/kuthenborg.jpg">
+            <h3>Knuthenborg Safaripark</h3>
+            <p>63 km</p>
+            <a class="btnSmall" href="https://www.knuthenborg.dk/" target="_blank">Se mere her</a>
         </div>
-        <div class="indholsbillede">
-            <img src="images/stemningsbilleder/OreStrandCampingWEB-9238.jpg">
+        <div class="aktivitetElement 15km">
+            <img src="images/aktiviteterIOmrådet/gaasetaarnet.jpg">
+            <h3>Gåsetårnet</h3>
+            <p>3,5 km</p>
+            <a class="btnSmall" href="https://www.danmarksborgcenter.dk/da/oplevelser/gaasetaarnet?gclid=Cj0KCQjw0a7YBRDnARIsAJgsF3OO4osMTP5mas79KcCpXm0JdNjNBI0lMo6G8xwGGV3ggtYB3cIbt40aAkmMEALw_wcB" target="_blank">Se mere her</a>
         </div>
-    </article>
-    <article class="indholdselement">
-        <div class="indholsbillede">
-            <img src="images/stemningsbilleder/OreStrandCampingWEB-9520.jpg">
+        <div class="aktivitetElement 15km">
+            <img src="images/aktiviteterIOmrådet/danmarksBorgCenter.jpg">
+            <h3>Danmarks Borgcenter</h3>
+            <p>3,1 km</p>
+            <a class="btnSmall" href="https://www.danmarksborgcenter.dk/" target="_blank">Se mere her</a>
         </div>
-        <div class="indholdstekst">
-            <h2>Aktiviteter uden for pladsen</h2>
-            <p>Sjælland og Lolland-Falster er fyldt med store oplevelser. Der er massere af turistattraktioner, og over 60 af dem ligger inden for 30 minutters kørsel! </p>
-            <a class="btnBig" href="kortTest.html">Læs mere her</a>
+        <div class="aktivitetElement 60kmPlus">
+            <img src="images/aktiviteterIOmrådet/pangeaPark.jpeg">
+            <h3>Pangea Park</h3>
+            <p>62,1 km</p>
+            <a class="btnSmall" href="hhttps://www.pangeapark.dk/" target="_blank">Se mere her</a>
         </div>
-    </article>
+        <div class="aktivitetElement 30km">
+            <img src="images/aktiviteterIOmrådet/krokodilleZoo.jpg">
+            <h3>Krokodille Zoo</h3>
+            <p>21,4 km</p>
+            <a class="btnSmall" href="https://www.krokodillezoo.dk/" target="_blank">Se mere her</a>
+        </div>
+        <div class="aktivitetElement 60km">
+            <img src="images/aktiviteterIOmrådet/guldborgsundZoo.jpeg">
+            <h3>Guldborgsund Zoo</h3>
+            <p>30,4 km</p>
+            <a class="btnSmall" href="https://www.guldborgsundzoo.dk/" target="_blank">Se mere her</a>
+        </div>
+        <div class="aktivitetElement 60km">
+            <img src="images/aktiviteterIOmrådet/middelaldercenteret.jpg">
+            <h3>Middelaldercenteret</h3>
+            <p>34,2 km</p>
+            <a class="btnSmall" href="https://www.middelaldercentret.dk/da" target="_blank">Se mere her</a>
+        </div>
+        <div class="aktivitetElement 60km">
+            <img src="images/aktiviteterIOmrådet/danmarksMotercykelmuseum.jpg">
+            <h3>Danmarks Motercykelmuseum</h3>
+            <p>24,9 km</p>
+            <a class="btnSmall" href="http://www.danmarksmotorcykelmuseum.dk/" target="_blank">Se mere her</a>
+        </div>
+        <div class="aktivitetElement 60km">
+            <img src="images/aktiviteterIOmrådet/golfOgFunPark.jpg">
+            <h3>Golf & Fun park</h3>
+            <p>42,7 km</p>
+            <a class="btnSmall" href="https://golffunpark.dk/" target="_blank">Se mere her</a>
+        </div>
+    </div>
+
+
+</div>
 
 
 
 </main>
-
 
 
 <footer>
@@ -110,7 +154,7 @@
 
 </footer>
 
-
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="js/script.js"></script>
 </body>
 </html>

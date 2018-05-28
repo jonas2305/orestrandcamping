@@ -271,9 +271,9 @@ header .topnav.responsive a {
     top: 572px;
     left: 532px; }
 
-.mainFilter {
+.aktiviteterUdenForPladsen {
   width: 80%;
-  margin: 5% auto; }
+  margin: 15% auto 5% auto; }
 
 .filterKnapper button {
   background-color: #44586C;
@@ -291,7 +291,13 @@ header .topnav.responsive a {
   .aktivitetElementWrapper .aktivitetElement {
     background-color: #BEDCCE;
     padding: 20px;
-    width: 150px;
+    width: 180px;
     margin: 10px; }
+    .aktivitetElementWrapper .aktivitetElement h3 {
+      margin: 5px 0; }
+    .aktivitetElementWrapper .aktivitetElement p {
+      margin: 5px 0 20px 0; }
+    .aktivitetElementWrapper .aktivitetElement img {
+      width: 100%; }
 
 /*# sourceMappingURL=finalStyle.css.map */

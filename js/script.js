@@ -12,35 +12,34 @@ $(document).ready (function () {
     });
 
 
-
+    // jQuery til filterfunktion
     $(function(){
+        // VISER ALLE ELEMENTER
         $('#all').click(function(){
             $('.aktivitetElement').show();
-            return false;
         });
 
+        //SKJULER ALLE PÅ NÆR 0-15KM
         $('#15km').click(function(){
             $('.aktivitetElement').show();
-            $('.aktivitetElement').not('.a15km').hide();
-            return false;
+            $('.aktivitetElement').not('.15km').hide();
         });
 
+        //SKJULER ALLE PÅ NÆR 15-30KM
         $('#30km').click(function(){
             $('.aktivitetElement').show();
-            $('.aktivitetElement').not('.a30km').hide();
-            return false;
+            $('.aktivitetElement').not('.30km').hide();
         });
 
+        //SKJULER ALLE PÅ NÆR 30-60KM
         $('#60km').click(function(){
             $('.aktivitetElement').show();
-            $('.aktivitetElement').not('.a60km').hide();
-            return false;
+            $('.aktivitetElement').not('.60km').hide();
         });
 
         $('#60kmPlus').click(function(){
             $('.aktivitetElement').show();
-            $('.aktivitetElement').not('.a60kmPlus').hide();
-            return false;
+            $('.aktivitetElement').not('.60kmPlus').hide();
         });
     });
 
