@@ -7,10 +7,11 @@
   button{
     background-color: $color-pri-darkblue;
     padding: 15px;
-    margin: 10px;
+    margin: 3px;
     border: none;
     border-radius: 5px;
     color: $color-pri-sand;
+    font-size: 1.3em;
     &:hover{
       background-color: $color-pri-red;
     }

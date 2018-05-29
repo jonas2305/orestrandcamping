@@ -278,10 +278,11 @@ header .topnav.responsive a {
 .filterKnapper button {
   background-color: #44586C;
   padding: 15px;
-  margin: 10px;
+  margin: 3px;
   border: none;
   border-radius: 5px;
-  color: #FEF5DC; }
+  color: #FEF5DC;
+  font-size: 1.3em; }
   .filterKnapper button:hover {
     background-color: #D05148; }
 
