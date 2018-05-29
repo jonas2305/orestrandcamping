@@ -1,12 +1,24 @@
 
 $(document).ready (function () {
 
+    //jQuery til BURGERMENU ÅBEN
+    $('.menuknap').click(function () {
+        $('.topnavContentWrapper').show();
+    });
+    //jQuery til BURGERMENU LUKKE
+    $('.burgermenuClose').click(function () {
+        $('.topnavContentWrapper').hide();
+    });
 
+
+
+    //jQuery til oversigtkort
+    //VISER TILHØRENDE VIDEOBOKS
     $(".dot").click(function () {
         var dotId = $(this).attr('data-dotid');
         $('#'+dotId).show();
     });
-
+    //SKJULER ALLE VIDEOBOKSE
     $(".overlayClose").click(function () {
         $(".videoBeskrivelse").hide();
     });

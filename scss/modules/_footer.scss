@@ -4,15 +4,18 @@ footer{
   margin-bottom: 50px;
   .footerInformationer {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     width: 80%;
     margin: auto;
     .footerIndhold {
-      width: 20%;
+      width: 100%;
+      margin: auto;
       p {
         line-height: 1.4;
       }
       img {
+        display: none;
         width: 100%;
         max-width: 220px;
         margin-top: 24px;
@@ -31,7 +34,7 @@ footer{
     justify-content: space-between;
     margin: auto;
     a{
-      font-size: 3em;
+      font-size: 2em;
       margin-left: 20px;
       color: $color-pri-darkblue;
       &:hover{
@@ -39,5 +42,22 @@ footer{
       }
     }
   }
-  
+
+  @media screen and(min-width: 500px) {
+    .footerInformationer{
+      flex-direction: row;
+      flex-wrap: wrap;
+      .footerIndhold{
+        width: 200px;
+        img{
+          display: block;
+        }
+      }
+    }
+    .footerCopySocial{
+      a{
+        font-size: 3em;
+      };
+    }
+  }
 }
