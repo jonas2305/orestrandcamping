@@ -153,89 +153,95 @@ footer {
   height: 500px;
   width: 100%; }
 
-header .logo-mobil {
-  display: block;
-  position: relative;
-  z-index: 2;
-  top: 10px;
-  left: 10px; }
-  header .logo-mobil img {
-    width: 100px; }
-header .logo-web {
-  display: none; }
-header .topnav {
-  position: absolute;
-  top: 30px;
-  right: 20px;
-  z-index: 10; }
-  header .topnav .menuknap {
-    font-size: 2.5em;
-    color: #44586C;
-    cursor: pointer; }
-  header .topnav .topnavContentWrapper {
-    display: none;
-    background-color: rgba(27, 35, 42, 0.8);
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    right: 0;
-    z-index: 100;
-    margin: auto; }
-    header .topnav .topnavContentWrapper .burgermenuClose {
-      position: absolute;
-      top: 30px;
-      right: 20px;
-      font-size: 2.5em;
-      color: #FEF5DC;
-      cursor: pointer; }
-    header .topnav .topnavContentWrapper .topnavContent {
-      display: flex;
-      flex-direction: column;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%); }
-      header .topnav .topnavContentWrapper .topnavContent a {
-        width: auto;
-        color: #FEF5DC;
-        text-align: center;
-        margin: auto;
-        padding: 15px;
-        text-decoration: none;
-        font-size: 1.2em;
-        font-family: "dosis", sans-serif; }
-@media screen and (min-width: 900px) {
+header {
+  background-color: white;
+  padding-bottom: 15px; }
   header .logo-mobil {
-    display: none; }
-  header .logo-web {
-    display: block; }
-    header .logo-web a img {
-      display: flex;
-      margin: 5px 30px;
-      width: 150px;
-      padding-top: 15px; }
-  header .topnav .menuknap {
-    display: none; }
-  header .topnav .topnavContentWrapper {
     display: block;
-    background-color: inherit;
-    height: auto;
-    top: inherit; }
-    header .topnav .topnavContentWrapper .burgermenuClose {
-      display: none; }
-    header .topnav .topnavContentWrapper .topnavContent {
-      flex-direction: row !important;
-      float: right;
-      top: 15px;
-      right: -300px !important;
-      left: inherit; }
-      header .topnav .topnavContentWrapper .topnavContent a {
-        font-size: 1.5em !important;
-        padding: 20px !important;
-        color: #333333; }
-        header .topnav .topnavContentWrapper .topnavContent a:hover {
-          background-color: #BEDCCE; } }
+    position: relative;
+    z-index: 2;
+    top: 10px;
+    left: 10px; }
+    header .logo-mobil img {
+      width: 100px; }
+  header .logo-web {
+    display: none; }
+  header .topnav {
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    z-index: 10; }
+    header .topnav .menuknap {
+      font-size: 2.5em;
+      color: #44586C;
+      cursor: pointer; }
+    header .topnav .topnavContentWrapper {
+      display: none;
+      background-color: rgba(27, 35, 42, 0.8);
+      width: 100%;
+      height: 100%;
+      position: fixed;
+      top: 0;
+      right: 0;
+      z-index: 100;
+      margin: auto; }
+      header .topnav .topnavContentWrapper .burgermenuClose {
+        position: absolute;
+        top: 30px;
+        right: 20px;
+        font-size: 2.5em;
+        color: #FEF5DC;
+        cursor: pointer; }
+      header .topnav .topnavContentWrapper .topnavContent {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%); }
+        header .topnav .topnavContentWrapper .topnavContent a {
+          width: auto;
+          color: #FEF5DC;
+          text-align: center;
+          margin: auto;
+          padding: 15px;
+          text-decoration: none;
+          font-size: 1.2em;
+          font-family: "dosis", sans-serif; }
+  @media screen and (min-width: 900px) {
+    header {
+      background-color: inherit; }
+      header .logo-mobil {
+        display: none; }
+      header .logo-web {
+        display: block; }
+        header .logo-web a img {
+          display: flex;
+          margin: 5px 30px;
+          width: 150px;
+          padding-top: 15px; }
+      header .topnav .menuknap {
+        display: none; }
+      header .topnav .topnavContentWrapper {
+        display: block;
+        background-color: inherit;
+        height: auto;
+        top: inherit;
+        position: absolute !important; }
+        header .topnav .topnavContentWrapper .burgermenuClose {
+          display: none; }
+        header .topnav .topnavContentWrapper .topnavContent {
+          flex-direction: row !important;
+          float: right;
+          top: 15px;
+          right: -300px !important;
+          left: inherit; }
+          header .topnav .topnavContentWrapper .topnavContent a {
+            font-size: 1.5em !important;
+            padding: 20px !important;
+            color: #333333; }
+            header .topnav .topnavContentWrapper .topnavContent a:hover {
+              background-color: #BEDCCE; } }
 
 .oversigtskort {
   position: relative;
@@ -251,7 +257,8 @@ header .topnav {
     position: absolute;
     cursor: pointer;
     opacity: 0.85;
-    font-size: 1.7em; }
+    font-size: 1.7em;
+    padding-right: 25px; }
     .oversigtskort .dot:hover {
       opacity: 1; }
   .oversigtskort .videoBeskrivelse {

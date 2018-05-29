@@ -2,6 +2,8 @@
 
 //HEADER STYLING - GÆLDER BÅDE MOBIL OG PC
 header{
+  background-color: white;
+  padding-bottom: 15px;
   //Mobil logo vises og styles
   .logo-mobil{
     display: block;
@@ -33,7 +35,7 @@ header{
       background-color: rgba(27, 35, 42, 0.8);
       width: 100%;
       height: 100%;
-      position: absolute;
+      position: fixed;
       top: 0;
       right: 0;
       z-index: 100;
@@ -72,6 +74,7 @@ header{
 
   //CSS GÆLDER KUN FOR PC-HEADER (ALM. MENU)
   @media screen and(min-width: 900px){
+    background-color: inherit;
     //Skjuler logo på mobil
     .logo-mobil{
       display: none;
@@ -98,6 +101,7 @@ header{
         background-color: inherit;
         height: auto;
         top: inherit;
+        position: absolute!important;
         .burgermenuClose{
           display: none;
         }
