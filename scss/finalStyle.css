@@ -64,8 +64,8 @@ p {
   .indholdselement .indholsbillede {
     overflow: hidden; }
     .indholdselement .indholsbillede img {
-      width: 100%;
-      height: 100%; }
+      height: 100%;
+      width: 100%; }
 
 .sidetitel {
   position: absolute;
@@ -99,8 +99,8 @@ p {
     flex-direction: row;
     width: 80%; }
     .indholdselement .indholdstekst {
-      width: 50%;
-      margin: 3%; }
+      width: 60%;
+      margin: 3% 8%; }
     .indholdselement .indholsbillede {
       width: 50%; } }
 footer {
@@ -188,7 +188,7 @@ header {
       header .topnav .topnavContentWrapper .burgermenuClose {
         position: absolute;
         top: 30px;
-        right: 20px;
+        right: 30px;
         font-size: 2.5em;
         color: #FEF5DC;
         cursor: pointer; }
@@ -206,8 +206,14 @@ header {
           margin: auto;
           padding: 15px;
           text-decoration: none;
-          font-size: 1.2em;
+          font-size: 1.4em;
           font-family: "dosis", sans-serif; }
+        header .topnav .topnavContentWrapper .topnavContent .menuExpand {
+          display: flex;
+          flex-direction: column; }
+          header .topnav .topnavContentWrapper .topnavContent .menuExpand .menuExpandHide {
+            font-size: 1em;
+            padding: 6px !important; }
   @media screen and (min-width: 900px) {
     header {
       background-color: inherit; }
@@ -234,8 +240,29 @@ header {
           flex-direction: row !important;
           float: right;
           top: 15px;
-          right: -300px !important;
+          right: -350px !important;
           left: inherit; }
+          header .topnav .topnavContentWrapper .topnavContent .menuExpand {
+            width: auto;
+            display: flex;
+            flex-direction: column; }
+            header .topnav .topnavContentWrapper .topnavContent .menuExpand .menuExpandFixed {
+              position: relative; }
+            header .topnav .topnavContentWrapper .topnavContent .menuExpand .menuExpandHide {
+              font-size: 1em !important;
+              background-color: white;
+              padding: 12px !important;
+              display: none; }
+              header .topnav .topnavContentWrapper .topnavContent .menuExpand .menuExpandHide:hover {
+                background-color: #BEDCCE; }
+            header .topnav .topnavContentWrapper .topnavContent .menuExpand:hover {
+              transform: translate(0, 30.5%); }
+              header .topnav .topnavContentWrapper .topnavContent .menuExpand:hover .menuExpandHide {
+                display: block; }
+            header .topnav .topnavContentWrapper .topnavContent .menuExpand a {
+              width: 90px; }
+          header .topnav .topnavContentWrapper .topnavContent .menuExpandKontakt:hover {
+            transform: translate(0, 30.5%); }
           header .topnav .topnavContentWrapper .topnavContent a {
             font-size: 1.5em !important;
             padding: 20px !important;

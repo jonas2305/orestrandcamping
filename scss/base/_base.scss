@@ -98,8 +98,8 @@ p{
   .indholsbillede{
     overflow: hidden;
     img{
-      width:100%;
       height: 100%;
+      width: 100%;
     }
   }
 }
@@ -142,8 +142,8 @@ p{
     flex-direction: row;
     width: 80%;
     .indholdstekst{
-      width: 50%;
-      margin: 3%;
+      width: 60%;
+      margin: 3% 8%;
     }
     .indholsbillede{
       width: 50%;
