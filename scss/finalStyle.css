@@ -37,7 +37,7 @@ p {
   border-radius: 5px;
   text-align: center;
   width: 45%;
-  margin: auto auto 0px auto;
+  margin: 10px auto 0px auto;
   cursor: pointer; }
   .btnBig:hover {
     background-color: #D05148; }
@@ -67,11 +67,12 @@ p {
     flex-direction: column;
     justify-content: space-around; }
   .indholdselement .indholsbillede {
-    overflow: hidden; }
-    .indholdselement .indholsbillede img {
-      display: block;
-      height: 100%;
-      width: 100%; }
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 90vw;
+    height: 25vh; }
 
 form label {
   font-family: "comfortaa", sans-serif;
@@ -80,6 +81,7 @@ form label {
 .sidetitel {
   position: absolute;
   top: 0;
+  left: 0;
   z-index: -1;
   height: 50%;
   overflow: hidden; }
@@ -108,10 +110,14 @@ form label {
     flex-direction: row;
     width: 80%; }
     .indholdselement .indholdstekst {
-      width: 60%;
-      margin: 3% 8%; }
+      width: 30%;
+      margin: 5% 10%; }
     .indholdselement .indholsbillede {
-      width: 50%; } }
+      width: 50%;
+      height: auto; } }
+@media screen and (min-width: 1400px) {
+  main {
+    margin: 0 10% 0 10%; } }
 footer {
   margin: 50px 0; }
   footer .footerInformationer {
@@ -355,6 +361,42 @@ header {
   .oversigtskort #dotOtte {
     top: 572px;
     left: 532px; }
+
+#fb1 {
+  background-image: url(http://www.kjproductions.dk/projekter/sem2eksamen/images/stemningsbilleder/OreStrandCampingWEB-9242.jpg); }
+
+#fb2 {
+  background-image: url(http://www.kjproductions.dk/projekter/sem2eksamen/images/stemningsbilleder/OreStrandCampingWEB-7841.jpg); }
+
+#fb3 {
+  background-image: url(http://www.kjproductions.dk/projekter/sem2eksamen/images/stemningsbilleder/OreStrandCampingWEB-9388.jpg); }
+
+#fb4 {
+  background-image: url(http://www.kjproductions.dk/projekter/sem2eksamen/images/stemningsbilleder/OreStrandCampingWEB-7646.jpg); }
+
+#pb1 {
+  background-image: url(http://www.kjproductions.dk/projekter/sem2eksamen/images/stemningsbilleder/OreStrandCampingWEB-9242.jpg); }
+
+#pb2 {
+  background-image: url(http://www.kjproductions.dk/projekter/sem2eksamen/images/stemningsbilleder/OreStrandCampingWEB-7841.jpg); }
+
+#pb3 {
+  background-image: url(http://www.kjproductions.dk/projekter/sem2eksamen/images/stemningsbilleder/OreStrandCampingWEB-9388.jpg); }
+
+#pb4 {
+  background-image: url(http://www.kjproductions.dk/projekter/sem2eksamen/images/stemningsbilleder/OreStrandCampingWEB-7646.jpg); }
+
+#ab1 {
+  background-image: url(http://www.kjproductions.dk/projekter/sem2eksamen/images/stemningsbilleder/OreStrandCampingWEB-9238.jpg); }
+
+#ab2 {
+  background-image: url(http://www.kjproductions.dk/projekter/sem2eksamen/images/stemningsbilleder/OreStrandCampingWEB-9520.jpg); }
+
+#ab3 {
+  background-image: url(http://www.kjproductions.dk/projekter/sem2eksamen/images/stemningsbilleder/OreStrandCampingWEB-7646.jpg); }
+
+#ab4 {
+  background-image: url(http://www.kjproductions.dk/projekter/sem2eksamen/images/stemningsbilleder/OreStrandCampingWEB-7646.jpg); }
 
 .aktiviteterUdenForPladsen {
   width: 80%;

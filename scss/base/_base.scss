@@ -64,7 +64,7 @@ p{
   border-radius: 5px;
   text-align: center;
   width: 45%;
-  margin: auto auto 0px auto;
+  margin: 10px auto 0px auto;
   cursor: pointer;
   &:hover{
     background-color: $color-pri-red;
@@ -102,11 +102,20 @@ p{
   }
   .indholsbillede{
     overflow: hidden;
-    img{
-      display: block;
-      height: 100%;
-      width: 100%;
-    }
+
+    //Kasper
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    width: 90vw;
+    height: 25vh;
+
+    //img{
+    //  display: block;
+    //  height: 100%;
+    //  width: 100%;
+    //}
   }
 }
 
@@ -122,6 +131,7 @@ form{
 .sidetitel{
   position: absolute;
   top: 0;
+  left: 0; //Kasper
   z-index: -1;
   height: 50%;
   overflow: hidden;
@@ -155,12 +165,23 @@ form{
     flex-direction: row;
     width: 80%;
     .indholdstekst{
-      width: 60%;
-      margin: 3% 8%;
+      width: 30%;
+      margin: 5% 10%;
     }
+
+    //Kasper
     .indholsbillede{
       width: 50%;
+      height: auto;
     }
   }
+}
+
+@media screen and(min-width: 1400px) {
+
+  main {
+    margin: 0 10% 0 10%;
+  }
+
 }
 
