@@ -108,6 +108,14 @@ p{
   }
 }
 
+//STYLER ALLE FORMS
+form{
+  label{
+    font-family: $font-primary-text;
+    color: $color-pri-darkblue;
+  }
+}
+
 // STYLER ALLE SIDETITLER MED BILLEDER
 .sidetitel{
   position: absolute;
@@ -119,7 +127,6 @@ p{
     width: 110%;
     position: relative;
     float: right;
-    bottom: 15%;
   }
   .sidetiteloverskrift{
     position: absolute;
@@ -134,7 +141,7 @@ p{
   }
 }
 .mainMargin{
-  margin-top: 300px;
+  margin-top: 40vh;
 }
 
 @media screen and(min-width: 700px){

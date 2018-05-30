@@ -71,6 +71,10 @@ p {
       height: 100%;
       width: 100%; }
 
+form label {
+  font-family: "comfortaa", sans-serif;
+  color: #44586C; }
+
 .sidetitel {
   position: absolute;
   top: 0;
@@ -80,8 +84,7 @@ p {
   .sidetitel img {
     width: 110%;
     position: relative;
-    float: right;
-    bottom: 15%; }
+    float: right; }
   .sidetitel .sidetiteloverskrift {
     position: absolute;
     bottom: 0px;
@@ -93,7 +96,7 @@ p {
       margin-top: 5%; }
 
 .mainMargin {
-  margin-top: 300px; }
+  margin-top: 40vh; }
 
 @media screen and (min-width: 700px) {
   .indholdselementReverse {
@@ -108,7 +111,7 @@ p {
     .indholdselement .indholsbillede {
       width: 50%; } }
 footer {
-  margin-bottom: 50px; }
+  margin: 50px 0; }
   footer .footerInformationer {
     display: flex;
     flex-direction: column;
@@ -380,5 +383,46 @@ header {
       margin: 5px 0 20px 0; }
     .aktivitetElementWrapper .aktivitetElement img {
       width: 100%; }
+
+.kontaktForm {
+  background-color: #FEF5DC;
+  width: 80%;
+  margin: auto;
+  padding: 5%;
+  display: flex;
+  flex-direction: column; }
+  .kontaktForm input {
+    width: 100%;
+    margin: auto;
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid gray; }
+  .kontaktForm textarea {
+    width: 100%;
+    margin: auto;
+    border-radius: 5px;
+    border: 1px solid gray; }
+  .kontaktForm input[type=submit] {
+    background-color: #44586C;
+    color: #FEF5DC;
+    font-size: 1.2em;
+    height: auto;
+    padding: 10px;
+    width: 60%;
+    border: none;
+    justify-content: center; }
+    .kontaktForm input[type=submit]:hover {
+      background-color: #D05148; }
+
+@media screen and (min-width: 900px) {
+  .formInput {
+    display: flex;
+    justify-content: space-between; }
+    .formInput .formInfo {
+      width: 35%; }
+    .formInput .formMessage {
+      width: 60%; }
+      .formInput .formMessage textarea {
+        height: 218px; } }
 
 /*# sourceMappingURL=finalStyle.css.map */
