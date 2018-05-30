@@ -38,16 +38,19 @@
 
 
 @media screen and(min-width: 900px) {
-  .formInput {
-    display: flex;
-    justify-content: space-between;
-    .formInfo {
-      width: 35%;
-    }
-    .formMessage {
-      width: 60%;
-      textarea{
-        height: 218px;
+  .kontaktForm {
+    width: 70%;
+    .formInput {
+      display: flex;
+      justify-content: space-between;
+      .formInfo {
+        width: 35%;
+      }
+      .formMessage {
+        width: 60%;
+        textarea {
+          height: 218px;
+        }
       }
     }
   }

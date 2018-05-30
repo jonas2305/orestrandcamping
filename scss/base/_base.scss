@@ -65,6 +65,7 @@ p{
   text-align: center;
   width: 45%;
   margin: auto auto 0px auto;
+  cursor: pointer;
   &:hover{
     background-color: $color-pri-red;
   }
@@ -79,6 +80,7 @@ p{
   color: $color-pri-sand;
   border-radius: 3px;
   text-align: center;
+  cursor: pointer;
   &:hover{
     background-color: $color-pri-red;
   }

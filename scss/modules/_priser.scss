@@ -1,0 +1,100 @@
+
+.bookingFormWrapper {
+  display: none;
+  background-color: rgba(27, 35, 42, 0.8);
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  margin: auto;
+  .overlayBookingClose{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    font-size: 30px;
+    color: $color-pri-sand;
+    cursor: pointer;
+    &:hover{
+      color: $color-pri-lightblue;
+    }
+  }
+  .bookingForm {
+    background-color: $color-pri-sand;
+    width: 70%;
+    margin: auto;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    input {
+      width: 100%;
+      margin-bottom: 10px;
+      height: 25px;
+      border-radius: 5px;
+      border: 1px solid gray;
+    }
+    textarea {
+      width: 100%;
+      margin: auto;
+      border-radius: 5px;
+      border: 1px solid gray;
+    }
+    input[type=submit] {
+      background-color: $color-pri-darkblue;
+      color: $color-pri-sand;
+      font-size: 1.2em;
+      height: auto;
+      padding: 10px;
+      width: 60%;
+      border: none;
+      margin: 10px auto;
+      justify-content: center;
+      &:hover {
+        background-color: $color-pri-red;
+      }
+    }
+    .hideOnMobile{
+      display: none;
+    }
+
+  }
+}
+@media screen and(min-height: 700px){
+  .hideOnMobile{
+    display: block!important;
+  }
+}
+
+
+@media screen and(min-width: 900px) {
+  .bookingForm {
+    .formInput {
+      display: flex;
+      justify-content: space-between;
+      .formInfo {
+        width: 35%;
+      }
+      .formMessage {
+        width: 60%;
+        textarea {
+          height: 139px;
+        }
+        .bookingDato {
+          display: flex;
+          justify-content: space-between;
+          .bookingDatoElement {
+            width: 48%;
+            input[type=date] {
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+  }
+}

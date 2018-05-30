@@ -73,7 +73,7 @@
                 <p> <strong>kr.  70,00 pr. person pr. døgn <br><br>
                     kr.  35,00 pr. person pr. døgn (2 -12 år )
                 </strong></p>
-                <a class="btnBig" href="mailto:mail@orestrandcamping.dk?Subject=Booking%20af%20plads">Book nu</a>
+                <div class="btnBig overlayBookingOpen">Book nu</div>
             </div>
             <div class="indholsbillede">
                 <img src="images/stemningsbilleder/OreStrandCampingWEB-9242.jpg">
@@ -84,7 +84,7 @@
                 <h2>Telt</h2>
                 <p><strong> kr.  70,00 pr. person pr. døgn <br><br>
                     kr.  35,00 pr. person  (2 -12 år ) pr. døgn</strong></p>
-                <a class="btnBig" href="mailto:mail@orestrandcamping.dk?Subject=Booking%20af%20telt">Book nu</a>
+                <div class="btnBig overlayBookingOpen">Book nu</div>
             </div>
             <div class="indholsbillede">
                 <img src="images/stemningsbilleder/OreStrandCampingWEB-7841.jpg">
@@ -95,7 +95,7 @@
                 <h2>Hytte</h2>
                 <p><strong> kr.  70,00 pr. person pr. døgn<br><br>
                     kr.  35,00 pr. person  (2 -12 år ) pr. døgn</strong></p>
-                <a class="btnBig" href="mailto:mail@orestrandcamping.dk?Subject=Booking%20af%20hytte">Book nu</a>
+                <div class="btnBig overlayBookingOpen">Book nu</div>
             </div>
             <div class="indholsbillede">
                 <img src="images/stemningsbilleder/OreStrandCampingWEB-9388.jpg">
@@ -107,17 +107,58 @@
                 <p><strong> Sæsonplads 1/4 - 1/10                kr. 7.000 <br><br>
                 Vinteropbevaring 1/10 - 1/4       kr. 1.000 <br><br>
                 Strøm afregnes pr. måler med kr. 3,00 pr. KW </strong></p>
-                <a class="btnBig" href="mailto:mail@orestrandcamping.dk?Subject=Booking%20af%20sæsonplads">Book nu</a>
+                <div class="btnBig overlayBookingOpen">Book nu</div>
             </div>
             <div class="indholsbillede">
                 <img src="images/stemningsbilleder/OreStrandCampingWEB-7646.jpg">
             </div>
     </article>
 
+    <div class="bookingFormWrapper">
+        <div class="overlayBookingClose">
+            <i class="fas fa-times"></i>
+        </div>
+        <form class="bookingForm" method="get">
+            <h2>Book nu</h2>
+            <div class="formInput">
+                <div class="formInfo">
+                    <label>Navn*</label>
+                    <input type="text" name="name" required>
+
+                    <label class="hideOnMobile">Emne</label>
+                    <input class="hideOnMobile" type="text" name="subject">
+
+                    <label class="hideOnMobile">Telefonnummer</label>
+                    <input class="hideOnMobile" type="tel" name="tel">
+
+                    <label>Email*</label>
+                    <input type="email" name="email" required>
+
+                </div>
+                <div class="formMessage">
+                    <div class="bookingDato">
+                        <div class="bookingDatoElement">
+                            <label>Startdato*</label>
+                            <input type="date" name="startdate" required>
+                        </div>
+                        <div class="bookingDatoElement">
+                            <label>Slutdato*</label>
+                            <input type="date" name="enddate" required>
+                        </div>
+
+                    </div>
+                    <label>Besked*</label>
+                    <textarea name="message" rows="7" required></textarea>
+                </div>
+            </div>
+
+            <input type="submit" value="Send">
+            <label>* Påkrævede felter</label>
+        </form>
+    </div>
 
 
-
-</>
+</main>
 
 <!--FOOTER-->
 <footer>

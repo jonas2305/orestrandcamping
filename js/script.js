@@ -11,6 +11,15 @@ $(document).ready (function () {
     });
 
 
+    //jQuery åbner booking form på priser
+    $('.overlayBookingOpen').click(function () {
+        $('.bookingFormWrapper').show();
+    });
+    //jQuery lukker booking form på priser
+    $('.overlayBookingClose').click(function () {
+        $('.bookingFormWrapper').hide();
+    });
+
 
     //jQuery til oversigtkort
     //VISER TILHØRENDE VIDEOBOKS
