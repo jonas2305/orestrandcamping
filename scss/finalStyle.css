@@ -240,7 +240,7 @@ header {
           flex-direction: row !important;
           float: right;
           top: 15px;
-          right: -300px !important;
+          right: -350px !important;
           left: inherit; }
           header .topnav .topnavContentWrapper .topnavContent .menuExpand {
             width: auto;
