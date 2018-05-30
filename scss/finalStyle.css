@@ -236,6 +236,23 @@ header {
           top: 15px;
           right: -300px !important;
           left: inherit; }
+          header .topnav .topnavContentWrapper .topnavContent .menuExpand {
+            width: auto;
+            display: flex;
+            flex-direction: column; }
+            header .topnav .topnavContentWrapper .topnavContent .menuExpand .menuExpandFixed {
+              position: relative; }
+            header .topnav .topnavContentWrapper .topnavContent .menuExpand .menuExpandHide {
+              font-size: 1.2em !important;
+              background-color: white;
+              padding: 12px !important;
+              display: none; }
+              header .topnav .topnavContentWrapper .topnavContent .menuExpand .menuExpandHide:hover {
+                background-color: #BEDCCE; }
+            header .topnav .topnavContentWrapper .topnavContent .menuExpand:hover .menuExpandFixed {
+              position: static; }
+            header .topnav .topnavContentWrapper .topnavContent .menuExpand:hover .menuExpandHide {
+              display: block; }
           header .topnav .topnavContentWrapper .topnavContent a {
             font-size: 1.5em !important;
             padding: 20px !important;

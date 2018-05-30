@@ -111,6 +111,31 @@ header{
           top: 15px;
           right: -300px!important;
           left: inherit;
+          .menuExpand{
+            width: auto;
+            display: flex;
+            flex-direction: column;
+            .menuExpandFixed{
+              position: relative;
+            }
+            .menuExpandHide{
+              font-size: 1.2em!important;
+              background-color: white;
+              padding: 12px!important;
+              display: none;
+              &:hover{
+                background-color: $color-pri-lightblue;
+              }
+            }
+            &:hover{
+              .menuExpandFixed{
+                position: static;
+              }
+              .menuExpandHide{
+                display: block;
+              }
+            }
+          }
           //Styler menupunkter
           a {
             font-size: 1.5em !important;
