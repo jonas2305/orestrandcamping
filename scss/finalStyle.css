@@ -35,7 +35,9 @@ p {
   background-color: #44586C;
   color: #FEF5DC;
   border-radius: 5px;
-  text-align: center; }
+  text-align: center;
+  width: 45%;
+  margin: auto auto 0px auto; }
   .btnBig:hover {
     background-color: #D05148; }
 
@@ -65,6 +67,7 @@ p {
   .indholdselement .indholsbillede {
     overflow: hidden; }
     .indholdselement .indholsbillede img {
+      display: block;
       height: 100%;
       width: 100%; }
 

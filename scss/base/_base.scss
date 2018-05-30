@@ -63,6 +63,8 @@ p{
   color: $color-pri-sand;
   border-radius: 5px;
   text-align: center;
+  width: 45%;
+  margin: auto auto 0px auto;
   &:hover{
     background-color: $color-pri-red;
   }
@@ -99,6 +101,7 @@ p{
   .indholsbillede{
     overflow: hidden;
     img{
+      display: block;
       height: 100%;
       width: 100%;
     }
