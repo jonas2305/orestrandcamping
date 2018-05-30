@@ -43,7 +43,7 @@ header{
       .burgermenuClose{
         position: absolute;
         top: 30px;
-        right: 20px;
+        right: 30px;
         font-size: 2.5em;
         color: $color-pri-sand;
         cursor: pointer;
@@ -62,8 +62,16 @@ header{
           margin:auto;
           padding: 15px;
           text-decoration: none;
-          font-size: 1.2em;
+          font-size: 1.4em;
           font-family: $font-primary-header;
+        }
+        .menuExpand{
+          display: flex;
+          flex-direction: column;
+          .menuExpandHide{
+            font-size: 1em;
+            padding: 6px!important;
+          }
         }
 
       }
@@ -119,7 +127,7 @@ header{
               position: relative;
             }
             .menuExpandHide{
-              font-size: 1.2em!important;
+              font-size: 1em!important;
               background-color: white;
               padding: 12px!important;
               display: none;
@@ -128,18 +136,18 @@ header{
               }
             }
             &:hover{
-              transform: translate(0,32%);
+              transform: translate(0,30.5%);
               .menuExpandHide{
                 display: block;
               }
             }
             a{
-              width: 80px;
+              width: 90px;
             }
           }
           .menuExpandKontakt{
             &:hover {
-              transform: translate(0, 34%);
+              transform: translate(0, 30.5%);
             }
           }
           //Styler menupunkter
