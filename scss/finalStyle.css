@@ -64,8 +64,8 @@ p {
   .indholdselement .indholsbillede {
     overflow: hidden; }
     .indholdselement .indholsbillede img {
-      width: 100%;
-      height: 100%; }
+      height: 100%;
+      width: 100%; }
 
 .sidetitel {
   position: absolute;
@@ -99,8 +99,8 @@ p {
     flex-direction: row;
     width: 80%; }
     .indholdselement .indholdstekst {
-      width: 50%;
-      margin: 3%; }
+      width: 60%;
+      margin: 3% 8%; }
     .indholdselement .indholsbillede {
       width: 50%; } }
 footer {
@@ -249,10 +249,14 @@ header {
               display: none; }
               header .topnav .topnavContentWrapper .topnavContent .menuExpand .menuExpandHide:hover {
                 background-color: #BEDCCE; }
-            header .topnav .topnavContentWrapper .topnavContent .menuExpand:hover .menuExpandFixed {
-              position: static; }
-            header .topnav .topnavContentWrapper .topnavContent .menuExpand:hover .menuExpandHide {
-              display: block; }
+            header .topnav .topnavContentWrapper .topnavContent .menuExpand:hover {
+              transform: translate(0, 32%); }
+              header .topnav .topnavContentWrapper .topnavContent .menuExpand:hover .menuExpandHide {
+                display: block; }
+            header .topnav .topnavContentWrapper .topnavContent .menuExpand a {
+              width: 80px; }
+          header .topnav .topnavContentWrapper .topnavContent .menuExpandKontakt:hover {
+            transform: translate(0, 34%); }
           header .topnav .topnavContentWrapper .topnavContent a {
             font-size: 1.5em !important;
             padding: 20px !important;

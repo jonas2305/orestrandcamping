@@ -128,12 +128,18 @@ header{
               }
             }
             &:hover{
-              .menuExpandFixed{
-                position: static;
-              }
+              transform: translate(0,32%);
               .menuExpandHide{
                 display: block;
               }
+            }
+            a{
+              width: 80px;
+            }
+          }
+          .menuExpandKontakt{
+            &:hover {
+              transform: translate(0, 34%);
             }
           }
           //Styler menupunkter
