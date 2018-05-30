@@ -89,7 +89,7 @@ p {
       margin-top: 5%; }
 
 .mainMargin {
-  margin-top: 40%; }
+  margin-top: 300px; }
 
 @media screen and (min-width: 700px) {
   .indholdselementReverse {
@@ -113,14 +113,14 @@ footer {
     margin: auto; }
     footer .footerInformationer .footerIndhold {
       width: 100%;
-      margin: auto; }
+      margin: 0px auto; }
       footer .footerInformationer .footerIndhold p {
         line-height: 1.4; }
       footer .footerInformationer .footerIndhold img {
         display: none;
         width: 100%;
         max-width: 220px;
-        margin-top: 24px; }
+        margin-top: 28px; }
   footer .linebreakFooter {
     background-color: #44586C;
     height: 1px;

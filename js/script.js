@@ -33,21 +33,22 @@ $(document).ready (function () {
 
         //SKJULER ALLE PÅ NÆR 0-15KM
         $('#15km').click(function(){
-            $('.aktivitetElement').not('.15km').hide();
+            $('.aktivitetElement').show().not('.15km').hide();
         });
 
         //SKJULER ALLE PÅ NÆR 15-30KM
         $('#30km').click(function(){
-            $('.aktivitetElement').not('.30km').hide();
+            $('.aktivitetElement').show().not('.30km').hide();
         });
 
         //SKJULER ALLE PÅ NÆR 30-60KM
         $('#60km').click(function(){
+            $('.aktivitetElement').show();
             $('.aktivitetElement').not('.60km').hide();
         });
 
-        //SKJULER ALLE PÅ NÆR 60+ KM
         $('#60kmPlus').click(function(){
+            $('.aktivitetElement').show();
             $('.aktivitetElement').not('.60kmPlus').hide();
         });
     });
