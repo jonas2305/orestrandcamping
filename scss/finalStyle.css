@@ -406,6 +406,21 @@ header {
 #ab4 {
   background-image: url(http://www.kjproductions.dk/projekter/sem2eksamen/images/stemningsbilleder/OreStrandCampingWEB-7646.jpg); }
 
+#apb1 {
+  background-image: url("http://bondejonas.dk/billederTilDiverseProjekter/OreStrandCampingMinigolf2.jpg"); }
+
+#apb2 {
+  background-image: url("http://bondejonas.dk/billederTilDiverseProjekter/OreStrandCampingMultibane.jpg"); }
+
+#apb3 {
+  background-image: url("http://bondejonas.dk/billederTilDiverseProjekter/OreStrandCampingLegeplads.jpg"); }
+
+#apb4 {
+  background-image: url("http://bondejonas.dk/billederTilDiverseProjekter/OreStrandCampingBadning.jpg "); }
+
+#apb5 {
+  background-image: url("http://bondejonas.dk/billederTilDiverseProjekter/OreStrandCampingNatur.jpg"); }
+
 .aktiviteterUdenForPladsen {
   width: 80%;
   margin: 15% auto 5% auto; }
