@@ -287,7 +287,7 @@ header {
 
 .oversigtskort {
   position: relative;
-  background-image: url("http://www.jonasbonde.dk/wp-content/uploads/2018/05/kort900x950-01.png");
+  background-image: url("http://www.jonasbonde.dk/wp-content/uploads/2018/05/tilweb-kort-1.jpg");
   width: 900px;
   height: 950px;
   margin: auto; }
@@ -338,29 +338,35 @@ header {
         .oversigtskort .videoBeskrivelse .videoBeskrivelseContent .overlayClose:hover {
           color: #FEF5DC; }
   .oversigtskort #dotEt {
-    top: 460px;
-    left: 720px; }
+    top: 371px;
+    left: 746px; }
   .oversigtskort #dotTo {
-    top: 612px;
-    left: 782px; }
+    top: 587px;
+    left: 391px; }
   .oversigtskort #dotTre {
-    top: 196px;
+    top: 197px;
     left: 572px; }
   .oversigtskort #dotFire {
-    top: 568px;
-    left: 602px; }
+    top: 571px;
+    left: 601px; }
   .oversigtskort #dotFem {
-    top: 868px;
+    top: 871px;
     left: 584px; }
   .oversigtskort #dotSeks {
-    top: 398px;
-    left: 512px; }
+    top: 399px;
+    left: 510px; }
   .oversigtskort #dotSyv {
-    top: 900px;
-    left: 750px; }
+    top: 718px;
+    left: 200px; }
   .oversigtskort #dotOtte {
-    top: 572px;
-    left: 532px; }
+    top: 575px;
+    left: 531px; }
+  .oversigtskort #dotNi {
+    top: 522px;
+    left: 752px; }
+  .oversigtskort #dotTi {
+    top: 210px;
+    left: 834px; }
 
 #fb1 {
   background-image: url(http://www.kjproductions.dk/projekter/sem2eksamen/images/stemningsbilleder/OreStrandCampingWEB-9242.jpg); }
@@ -546,5 +552,22 @@ header {
         width: 60%; }
         .kontaktForm .formInput .formMessage textarea {
           height: 218px; } }
+.omOsPerson {
+  width: 80%;
+  padding: 5%;
+  margin: 2em auto;
+  background-color: #FEF5DC; }
+  .omOsPerson img {
+    width: 100%; }
+
+@media screen and (min-width: 600px) {
+  .omOsWrapper {
+    display: flex;
+    width: 82.5%;
+    margin: auto; }
+    .omOsWrapper .omOsPerson {
+      width: auto;
+      padding: 3%;
+      margin: 1em; } }
 
 /*# sourceMappingURL=finalStyle.css.map */
