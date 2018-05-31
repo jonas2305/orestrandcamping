@@ -229,6 +229,8 @@ header {
           header .topnav .topnavContentWrapper .topnavContent .menuExpand .menuExpandHide {
             font-size: 1em;
             padding: 6px !important; }
+        header .topnav .topnavContentWrapper .topnavContent .menuActive {
+          color: #44586C; }
   @media screen and (min-width: 900px) {
     header {
       background-color: inherit; }
