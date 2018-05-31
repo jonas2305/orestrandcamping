@@ -117,7 +117,7 @@ form label {
       height: auto; } }
 @media screen and (min-width: 1400px) {
   main {
-    margin: 0 10% 0 10%; } }
+    margin: 0 10%; } }
 footer {
   margin: 50px 0; }
   footer .footerInformationer {
@@ -166,8 +166,12 @@ footer {
 .googleMaps {
   background-color: #BEDCCE;
   height: 500px;
-  width: 100%; }
+  width: 90%;
+  margin: auto; }
 
+@media screen and (min-width: 700px) {
+  .googleMaps {
+    width: 80%; } }
 header {
   background-color: white;
   padding-bottom: 15px; }
@@ -230,7 +234,7 @@ header {
             font-size: 1em;
             padding: 6px !important; }
         header .topnav .topnavContentWrapper .topnavContent .menuActive {
-          color: #44586C; }
+          color: #BEDCCE; }
   @media screen and (min-width: 900px) {
     header {
       background-color: inherit; }
@@ -278,6 +282,8 @@ header {
                 display: block; }
             header .topnav .topnavContentWrapper .topnavContent .menuExpand a {
               width: 90px; }
+          header .topnav .topnavContentWrapper .topnavContent .menuActive {
+            color: #44586C; }
           header .topnav .topnavContentWrapper .topnavContent .menuExpandKontakt:hover {
             transform: translate(0, 30.5%); }
           header .topnav .topnavContentWrapper .topnavContent a {
@@ -420,6 +426,12 @@ header {
 
 #apb5 {
   background-image: url("http://bondejonas.dk/billederTilDiverseProjekter/OreStrandCampingNatur.jpg"); }
+
+#fob1 {
+  background-image: url("http://bondejonas.dk/billederTilDiverseProjekter/OreStrandCampingVelkommen.jpg"); }
+
+#fob2 {
+  background-image: url("http://bondejonas.dk/billederTilDiverseProjekter/OreStrandCampingBadebro.jpg"); }
 
 .aktiviteterUdenForPladsen {
   width: 80%;

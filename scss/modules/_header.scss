@@ -74,7 +74,7 @@ header{
           }
         }
         .menuActive{
-            color: $color-pri-darkblue;
+            color: $color-pri-lightblue;
         }
 
       }
@@ -147,6 +147,9 @@ header{
             a{
               width: 90px;
             }
+          }
+          .menuActive{
+            color: $color-pri-darkblue;
           }
           .menuExpandKontakt{
             &:hover {

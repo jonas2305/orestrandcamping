@@ -1,0 +1,14 @@
+
+.googleMaps{
+  background-color: $color-pri-lightblue;
+  height: 500px;
+  width: 90%;
+  margin: auto;
+}
+
+
+@media screen and(min-width: 700px){
+  .googleMaps{
+    width: 80%;
+  }
+}
