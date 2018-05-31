@@ -1,11 +1,49 @@
+.kortPC{
+  display: none;
+}
 
+.videoerMobil{
+  position: relative;
+  padding-bottom: 370vh;
+  height: 0;
+  overflow: hidden;
+  margin-top: -60px;
+
+  .videoBeskrivelseTekst{
+    margin-bottom: 20px;
+
+    h2{
+      margin-left: 3%;
+    }
+  }
+
+  iframe{
+    position: relative;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 32vh;
+    //margin-bottom: 100px;
+  }
+}
+
+.introVideo{
+  display: flex;
+  justify-content: center;
+
+  iframe{
+    width: 900px;
+    height: 506px;
+  }
+}
 
 .oversigtskort{
   position: relative;
   background-image: url("http://www.jonasbonde.dk/wp-content/uploads/2018/05/tilweb-kort-1.jpg");
   width: 900px;
   height: 950px;
-  margin:auto;
+  margin: auto;
+  z-index: 10;
   .dot{
     color: $color-pri-red;
     width: 30px;
@@ -31,12 +69,17 @@
       display: flex;
       justify-content: center;
       align-content: center;
-      width: 900px;
+      width: 100vw;
       height: 100vh;
+      top: 0;
+      left: 0;
       .videoBeskrivelseTekst {
         background-color: $color-pri-lightblue;
         width: 80%;
         margin: 10%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
         .kortVideoStor {
           width: 75%;
           height: 60%;
@@ -45,7 +88,7 @@
         }
         h2 {
           position: relative;
-          margin: 5%;
+          margin: 5% 5% -8% 5%;
         }
       }
       .overlayClose {

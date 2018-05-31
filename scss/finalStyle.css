@@ -115,6 +115,12 @@ form label {
     .indholdselement .indholsbillede {
       width: 50%;
       height: auto; } }
+@media screen and (min-width: 900px) {
+  .videoerMobil {
+    display: none; }
+
+  .kortPC {
+    display: block !important; } }
 @media screen and (min-width: 1400px) {
   main {
     margin: 0 10%; } }
@@ -293,12 +299,40 @@ header {
             header .topnav .topnavContentWrapper .topnavContent a:hover {
               background-color: #BEDCCE; } }
 
+.kortPC {
+  display: none; }
+
+.videoerMobil {
+  position: relative;
+  padding-bottom: 370vh;
+  height: 0;
+  overflow: hidden;
+  margin-top: -60px; }
+  .videoerMobil .videoBeskrivelseTekst {
+    margin-bottom: 20px; }
+    .videoerMobil .videoBeskrivelseTekst h2 {
+      margin-left: 3%; }
+  .videoerMobil iframe {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 32vh; }
+
+.introVideo {
+  display: flex;
+  justify-content: center; }
+  .introVideo iframe {
+    width: 900px;
+    height: 506px; }
+
 .oversigtskort {
   position: relative;
   background-image: url("http://www.jonasbonde.dk/wp-content/uploads/2018/05/tilweb-kort-1.jpg");
   width: 900px;
   height: 950px;
-  margin: auto; }
+  margin: auto;
+  z-index: 10; }
   .oversigtskort .dot {
     color: #D05148;
     width: 30px;
@@ -322,12 +356,17 @@ header {
       display: flex;
       justify-content: center;
       align-content: center;
-      width: 900px;
-      height: 100vh; }
+      width: 100vw;
+      height: 100vh;
+      top: 0;
+      left: 0; }
       .oversigtskort .videoBeskrivelse .videoBeskrivelseContent .videoBeskrivelseTekst {
         background-color: #BEDCCE;
         width: 80%;
-        margin: 10%; }
+        margin: 10%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column; }
         .oversigtskort .videoBeskrivelse .videoBeskrivelseContent .videoBeskrivelseTekst .kortVideoStor {
           width: 75%;
           height: 60%;
@@ -335,7 +374,7 @@ header {
           border: none; }
         .oversigtskort .videoBeskrivelse .videoBeskrivelseContent .videoBeskrivelseTekst h2 {
           position: relative;
-          margin: 5%; }
+          margin: 5% 5% -8% 5%; }
       .oversigtskort .videoBeskrivelse .videoBeskrivelseContent .overlayClose {
         position: absolute;
         top: 30px;

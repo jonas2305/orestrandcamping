@@ -177,6 +177,18 @@ form{
   }
 }
 
+@media screen and(min-width: 900px) {
+
+.videoerMobil{
+  display: none;
+}
+
+.kortPC{
+  display: block !important;
+}
+
+}
+
 @media screen and(min-width: 1400px) {
 
   main {
