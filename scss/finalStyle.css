@@ -363,7 +363,7 @@ header {
       .oversigtskort .videoBeskrivelse .videoBeskrivelseContent .videoBeskrivelseTekst {
         background-color: #BEDCCE;
         width: 80%;
-        margin: 10%;
+        margin: 5%;
         display: flex;
         justify-content: center;
         flex-direction: column; }
@@ -471,6 +471,18 @@ header {
 
 #fob2 {
   background-image: url("http://bondejonas.dk/billederTilDiverseProjekter/OreStrandCampingBadebro.jpg"); }
+
+#fab1 {
+  background-image: url("http://bondejonas.dk/billederTilDiverseProjekter/OreStrandCampingVelkommen.jpg"); }
+
+#fab2 {
+  background-image: url("http://bondejonas.dk/billederTilDiverseProjekter/OreStrandCampingVelkommen.jpg"); }
+
+#fab3 {
+  background-image: url("http://bondejonas.dk/billederTilDiverseProjekter/OreStrandCampingVelkommen.jpg"); }
+
+#fab4 {
+  background-image: url("http://bondejonas.dk/billederTilDiverseProjekter/OreStrandCampingVelkommen.jpg"); }
 
 .aktiviteterUdenForPladsen {
   width: 80%;
