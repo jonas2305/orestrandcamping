@@ -101,7 +101,7 @@ form label {
 
 .sidetitelVideo {
   position: absolute;
-  top: 153px;
+  top: 85px;
   bottom: 0;
   width: 100%;
   height: 50vh;
@@ -136,12 +136,14 @@ form label {
       height: auto; }
 
   main {
-    margin-top: 63vh; }
+    margin-top: 55vh; }
 
   .sidetitelVideo {
-    display: block;
-    top: 85px; } }
+    display: block; } }
 @media screen and (min-width: 900px) {
+  .sidetitelVideo {
+    top: 153px; }
+
   .videoerMobil {
     display: none; }
 

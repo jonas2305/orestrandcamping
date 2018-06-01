@@ -149,7 +149,7 @@ form{
 
 .sidetitelVideo{
   position: absolute;
-  top: 153px;
+  top: 85px;
   bottom: 0;
   width: 100%;
   height: 50vh;
@@ -192,17 +192,20 @@ form{
     }
   }
   main{
-    margin-top: 63vh;
+    margin-top: 55vh;
   }
 
   .sidetitelVideo{
     display: block;
-    top: 85px;
   }
 
 }
 
 @media screen and(min-width: 900px) {
+
+  .sidetitelVideo{
+    top: 153px;
+  }
 
   .videoerMobil{
     display: none;
@@ -211,7 +214,6 @@ form{
   .kortPC{
     display: block !important;
   }
-
 
 }
 
