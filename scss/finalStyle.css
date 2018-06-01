@@ -139,7 +139,8 @@ form label {
     margin-top: 63vh; }
 
   .sidetitelVideo {
-    display: block; } }
+    display: block;
+    top: 85px; } }
 @media screen and (min-width: 900px) {
   .videoerMobil {
     display: none; }
