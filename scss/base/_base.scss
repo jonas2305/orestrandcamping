@@ -110,12 +110,6 @@ p{
 
     width: 90vw;
     height: 25vh;
-
-    //img{
-    //  display: block;
-    //  height: 100%;
-    //  width: 100%;
-    //}
   }
 }
 
@@ -152,6 +146,28 @@ form{
     }
   }
 }
+
+.sidetitelVideo{
+  position: absolute;
+  top: 153px;
+  bottom: 0;
+  width: 100%;
+  height: 50vh;
+  overflow: hidden;
+  z-index: -2;
+  display: none;
+
+  video{
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+}
 .mainMargin{
   margin-top: 40vh;
 }
@@ -175,24 +191,33 @@ form{
       height: auto;
     }
   }
+  main{
+    margin-top: 57vh;
+  }
+
+  .sidetitelVideo{
+    display: block;
+  }
+
 }
 
 @media screen and(min-width: 900px) {
 
-.videoerMobil{
-  display: none;
-}
+  .videoerMobil{
+    display: none;
+  }
 
-.kortPC{
-  display: block !important;
-}
+  .kortPC{
+    display: block !important;
+  }
+
 
 }
 
 @media screen and(min-width: 1400px) {
 
   main {
-    margin: 0 10%;
+    margin: 57vh 10% 0 10%;
   }
 
 }
