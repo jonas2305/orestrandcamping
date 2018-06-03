@@ -2,28 +2,43 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Ore Strand Camping - Camping for hele familien</title>
+    <title>Campingpladser og overnatninger - Ore Strand Camping</title>
+    <meta name="description" content="Campingpladser og overnatninger med aktiviteter, strand, minigolf og hygge for alle aldre.">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="scss/finalStyle.css">
     <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Comfortaa|Dosis:400,600" rel="stylesheet">
+
+    <!--Meta data til sociale medier-->
+    <meta property="og:title" content="Campingpladser og overnatninger - Ore Strand Camping" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://www.orestrandcamping.dk" />
+    <meta property="og:image" content="http://www.orestrandcamping.dk/images/stemningsbilleder/OreStrandCampingWEB-9242.jpg" />
+    <meta property="og:description" content="Campingpladser og overnatninger med aktiviteter, strand, minigolf og hygge for alle aldre." />
+    <meta property="og:locale" content="da_dk" />
+
 </head>
 <body>
 
 
 <!--HEADER-->
 <header>
-    <div class="logo-mobil">
-        <a href="index.html" class="logo">
-            <img src="images/logo/logoFinal.png" alt="Ore Strand Camping logo">
-        </a>
-    </div>
-    <div class="logo-web">
-        <a href="index.html" class="logo">
-            <img src="images/logo/logoFinal.png" alt="Ore Strand Camping logo">
-        </a>
-    </div>
-    <div class="topnav" id="myTopnav">
+    <nav class="logo-mobil">
+        <figure>
+            <a href="index.html" class="logo">
+                <img src="images/logo/logoFinal.png" alt="Ore Strand Camping logo" itemscope itemtype="http://schema.org/logo" itemprop="logo">
+            </a>
+        </figure>
+    </nav>
+    <nav class="logo-web">
+        <figure>
+            <a href="index.html" class="logo">
+                <img src="images/logo/logoFinal.png" alt="Ore Strand Camping logo" itemscope itemtype="http://schema.org/logo" itemprop="logo">
+            </a>
+        </figure>
+    </nav>
+    <nav class="topnav" id="myTopnav">
         <div class="menuknap">
             <i class="fas fa-bars"></i>
         </div>
@@ -46,50 +61,50 @@
                 </div>
             </div>
         </div>
-    </div>
+    </nav>
 </header>
 
-<div class="sidetitelVideo">
-    <video autoplay loop>
-        <source src="video/Stemningsvideo.mp4" type="video/mp4">
+<section class="sidetitelVideo">
+    <video autoplay loop itemprop="video" itemscope itemtype="http://schema.org/VideoObject">
+        <source src="video/Stemningsvideo.mp4" type="video/mp4" itemprop="keywords" content="Ore Strand Camping, Campingferie, Ferie, Stemningsvideo, Video, Sydsjælland, Overnatninger, Campingpladser">
     </video>
-</div>
+</section>
 
 <main>
 
     <article class="indholdselement">
-        <div class="indholsbillede" id="fb1"></div>
+        <div class="indholsbillede" id="fb1" itemscope itemtype="http://schema.org/ImageObject" itemprop="keywords" content="Leg, Mooncar, Børn, Camping"></div>
         <div class="indholdstekst">
-            <h2>Camping for hele familien</h2>
-            <p>Hos Ore Strand Camping er der plads og underholdning til hele familien. Vi har massere af forskellige aktiviteter på pladsen,
-                og der er massere af store oplevelser under 30 minutters kørsel fra pldasen.</p>
+            <h2 itemprop="name">Camping for hele familien</h2>
+            <p><span itemprop="description">Hos Ore Strand Camping er der plads og underholdning til hele familien. Vi har massere af forskellige aktiviteter på pladsen,
+                og der er massere af store oplevelser under 30 minutters kørsel fra pldasen.</span></p>
             <a class="btnBig" href="aktiviteter.html">Læs mere her</a>
         </div>
     </article>
     <article class="indholdselement indholdselementReverse">
-        <div class="indholsbillede" id="fb2"></div>
+        <div class="indholsbillede" id="fb2" itemscope itemtype="http://schema.org/ImageObject" itemprop="keywords" content="Hav, Strand, Badning, Bade, Person, Mand"></div>
         <div class="indholdstekst">
-            <h2>Voksenferie</h2>
-            <p>Er I er afsted uden børn og vil nyde en dejlig, rolig og afslappende voksenferie? </br>- så kom og besøg Ore Strand Camping!</p>
+            <h2 itemprop="name">Voksenferie</h2>
+            <p><span itemprop="description">Er I er afsted uden børn og vil nyde en dejlig, rolig og afslappende voksenferie? </br>- så kom og besøg Ore Strand Camping!</span></p>
             <a class="btnBig" href="priser.html">Læs mere her</a>
         </div>
     </article>
     <article class="indholdselement">
-        <div class="indholsbillede" id="fb3"></div>
+        <div class="indholsbillede" id="fb3" itemscope itemtype="http://schema.org/ImageObject" itemprop="keywords" content="Minigolf, Børn, Unge, Aktiviteter"></div>
         <div class="indholdstekst">
-            <h2>Aktiviteter for alle</h2>
-            <p>På Ore Strand Camping er der aktiviteter for både store og små. Den skønne natur giver mulighed for massere af oplevelser.
+            <h2 itemprop="name">Aktiviteter for alle</h2>
+            <p><span itemprop="description">På Ore Strand Camping er der aktiviteter for både store og små. Den skønne natur giver mulighed for massere af oplevelser.
                 Derudover er Sjælland og Lolland-Falster fyldt med muligheder, og der ligger intet mindre end 60 turistattraktioner
-                inden for 30 minutter kørsel.</p>
+                inden for 30 minutter kørsel.</span></p>
             <a class="btnBig" href="aktiviteterUdenForPladsen.html">Læs mere her</a>
         </div>
     </article>
     <article class="indholdselement indholdselementReverse">
-        <div class="indholsbillede" id="fb4"></div>
+        <div class="indholsbillede" id="fb4" itemscope itemtype="http://schema.org/ImageObject" itemprop="keywords" content="Familie, Ejere, Mand, Kvinde, Ore Strand Camping"></div>
         <div class="indholdstekst">
-            <h2>Velkommen til</h2>
-            <p>Ore Strand Camping er en lille familiedrevet campingplads og du vil altid blive mødt af et smil og gerne også en hyggelig sludder.
-                </br>- Hans Jørgen & Marianne</p>
+            <h2 itemprop="name">Velkommen til</h2>
+            <p><span itemprop="description">Ore Strand Camping er en lille familiedrevet campingplads og du vil altid blive mødt af et smil og gerne også en hyggelig sludder.
+                </br>- Hans Jørgen & Marianne</span></p>
             <a class="btnBig" href="omOs.html">Læs mere her</a>
         </div>
     </article>
@@ -98,37 +113,33 @@
 
 <footer>
     <div class="footerInformationer">
-        <div class="footerIndhold">
-            <a href="index.html"><img src="images/logo/logoFinal.png"></a>
-        </div>
-        <div class="footerIndhold">
-            <h3>Kontakt os</h3>
-            <p><a href="https://www.google.com/maps/place/Ore+Strand+Camping/@55.047696,11.565857,10z/data=!4m5!3m4!1s0x4652c960d6b383f9:0x4f95a5a805fca8f5!8m2!3d55.0066399!4d11.8748389?hl=da" target="_blank">Ore Strand Camping</a> </br> Orevej 145 </br>4760 Vordingborg</br> Danmark</p>
-            <p><a href="mailto:mail@orestrandcamping.dk">mail@orestrandcamping.dk</a></br> <a href="tel:+4555778822">+45 55778822</a></p>
-        </div>
-        <div class="footerIndhold">
-            <h3>Åbningstider</h3>
+            <figure class="footerIndhold">
+                <a href="index.html"><img src="images/logo/logoFinal.png" itemscope itemtype="http://schema.org/logo" itemprop="logo"></a>
+            </figure>
+        <address class="footerIndhold">
+            <h3 itemprop="name">Kontakt os</h3>
+            <p itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"><a href="https://www.google.com/maps/place/Ore+Strand+Camping/@55.047696,11.565857,10z/data=!4m5!3m4!1s0x4652c960d6b383f9:0x4f95a5a805fca8f5!8m2!3d55.0066399!4d11.8748389?hl=da" target="_blank">Ore Strand Camping</a> </br> <span itemprop="streetAddress">Orevej 145</span> </br><span itemprop="postalCode">4760</span> <span itemprop="addressLocality">Vordingborg</span></br> Danmark</p>
+            <p><a href="mailto:mail@orestrandcamping.dk" itemprop="email">mail@orestrandcamping.dk</a></br> <a itemprop="telephone" content="+4555778822" href="tel:+4555778822">+45 55778822</a></p>
+        </address>
+        <address class="footerIndhold" itemscope itemtype="http://schema.org/LocalBusiness">
+            <h3 itemprop="name">Åbningstider</h3>
             <p><strong>Sæson</strong></br>1. april - 1. oktober</p>
-            <p><strong>Mandag-Fredag</strong> - 6:30-17:00</p>
-            <p><strong>Lørdag-Søndag</strong> - 6:30-15:00</p>
-
-        </div>
+            <p><span itemprop="openingHours" content="Mo-Fr 06:30-17:00"><strong>Mandag-Fredag</strong> - 6:30-17:00</span></p>
+            <p><span itemprop="openingHours" content="Sa, Su 06:30-15:00"><strong>Lørdag-Søndag</strong> - 6:30-15:00</span></p>
+        </address>
         <div class="footerIndhold">
-            <h3>Præstø Camping</h3>
-            <p>Vi har også Præstø Camping, som ligger 15 km. fra Vordingborg. En lille hyggelig plads med gode faciliteter, tæt på centrum. </br> <a href="http://praesto-camping.dk/" target="_blank">Læs mere her</a> </p>
+            <h3 itemprop="name">Præstø Camping</h3>
+            <p><span itemprop="description">Vi har også Præstø Camping, som ligger 15 km. fra Vordingborg. En lille hyggelig plads med gode faciliteter, tæt på centrum. </br> <a href="http://praesto-camping.dk/" target="_blank">Læs mere her</a></span></p>
         </div>
     </div>
     <div class="linebreakFooter"></div>
     <div class="footerCopySocial">
         <p><i class="far fa-copyright"></i>  Copyright 2018 FabFive - All rights reserved</p>
-        <div class="socialeIkoner">
+        <nav class="socialeIkoner">
             <a href="https://www.facebook.com/Ore-Strand-Camping-2141747012779147/" target="_blank"><i class="fab fa-facebook-square"></i></a>
             <a href="https://www.instagram.com/orestrandcamping/?hl=da" target="_blank"><i class="fab fa-instagram"></i></a>
-        </div>
+        </nav>
     </div>
-
-
-
 </footer>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>

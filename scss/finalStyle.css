@@ -121,6 +121,9 @@ form label {
 .mainMargin {
   margin-top: 40vh; }
 
+.rundvisning {
+  margin-top: 0 !important; }
+
 @media screen and (min-width: 700px) {
   .indholdselementReverse {
     flex-direction: row-reverse !important; }
@@ -209,6 +212,8 @@ footer {
 header {
   background-color: white;
   padding-bottom: 15px; }
+  header figure {
+    margin: 0; }
   header .logo-mobil {
     display: block;
     position: relative;

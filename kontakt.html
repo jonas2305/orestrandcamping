@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Ore Strand Camping - Kontakt</title>
+    <title>Kontakt - Ore Strand Camping</title>
+    <meta name="description" content="Kontakt for overnatninger i vores hytter og campingpladser.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="scss/finalStyle.css">
     <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
@@ -12,17 +13,21 @@
 
 <!--HEADER-->
 <header>
-    <div class="logo-mobil">
-        <a href="index.html" class="logo">
-            <img src="images/logo/logoFinal.png" alt="Ore Strand Camping logo">
-        </a>
-    </div>
-    <div class="logo-web">
-        <a href="index.html" class="logo">
-            <img src="images/logo/logoFinal.png" alt="Ore Strand Camping logo">
-        </a>
-    </div>
-    <div class="topnav" id="myTopnav">
+    <nav class="logo-mobil">
+        <figure>
+            <a href="index.html" class="logo">
+                <img src="images/logo/logoFinal.png" alt="Ore Strand Camping logo">
+            </a>
+        </figure>
+    </nav>
+    <nav class="logo-web">
+        <figure>
+            <a href="index.html" class="logo">
+                <img src="images/logo/logoFinal.png" alt="Ore Strand Camping logo">
+            </a>
+        </figure>
+    </nav>
+    <nav class="topnav" id="myTopnav">
         <div class="menuknap">
             <i class="fas fa-bars"></i>
         </div>
@@ -45,18 +50,18 @@
                 </div>
             </div>
         </div>
-    </div>
+    </nav>
 </header>
 
 
 <main class="mainMargin">
 
-    <div class="sidetitel">
-        <img src="images/stemningsbilleder/OreStrandCampingWEB-7841.jpg">
+    <section class="sidetitel">
+        <img src="images/stemningsbilleder/OreStrandCampingWEB-7841.jpg" itemscope itemtype="http://schema.org/ImageObject">
         <div class="sidetiteloverskrift">
-            <h1>Kontakt</h1>
+            <h1 itemprop="name">Kontakt</h1>
         </div>
-    </div>
+    </section>
 
     <form class="kontaktForm" method="get">
         <h2>Send os en besked</h2>
@@ -85,10 +90,10 @@
     </form>
 
     <article class="indholdselement indholdselementReverse">
-        <div class="indholsbillede" id="fb4"></div>
+        <div class="indholsbillede" id="fb4" itemscope itemtype="http://schema.org/ImageObject" itemprop="keywords" content="Hans Jørgen, Marianne, Ore Strand Camping, Ejere"></div>
         <div class="indholdstekst">
-            <h2>Velkommen til</h2>
-            <p>Ore Strand Camping er en lille familiedrevet campingplads og du vil altid blive mødt af et smil og gerne også en hyggelig sludder.
+            <h2 itemprop="name">Velkommen til</h2>
+            <p itemprop="description">Ore Strand Camping er en lille familiedrevet campingplads og du vil altid blive mødt af et smil og gerne også en hyggelig sludder.
                 </br>- Hans Jørgen & Marianne</p>
             <a class="btnBig" href="omOs.html">Læs mere her</a>
         </div>
@@ -101,37 +106,33 @@
 <!--FOOTER-->
 <footer>
     <div class="footerInformationer">
-        <div class="footerIndhold">
+        <figure class="footerIndhold">
             <a href="index.html"><img src="images/logo/logoFinal.png"></a>
-        </div>
-        <div class="footerIndhold">
-            <h3>Kontakt os</h3>
+        </figure>
+        <address class="footerIndhold">
+            <h3 itemprop="name">Kontakt os</h3>
             <p><a href="https://www.google.com/maps/place/Ore+Strand+Camping/@55.047696,11.565857,10z/data=!4m5!3m4!1s0x4652c960d6b383f9:0x4f95a5a805fca8f5!8m2!3d55.0066399!4d11.8748389?hl=da" target="_blank">Ore Strand Camping</a> </br> Orevej 145 </br>4760 Vordingborg</br> Danmark</p>
-            <p><a href="mailto:mail@orestrandcamping.dk">mail@orestrandcamping.dk</a></br> <a href="tel:+4555778822">+45 55778822</a></p>
-        </div>
-        <div class="footerIndhold">
-            <h3>Åbningstider</h3>
+            <p><a href="mailto:mail@orestrandcamping.dk">mail@orestrandcamping.dk</a></br> <a itemprop="telephone" content="+4555778822" href="tel:+4555778822">+45 55778822</a></p>
+        </address>
+        <address class="footerIndhold" itemscope itemtype="http://schema.org/LocalBusiness">
+            <h3 itemprop="name">Åbningstider</h3>
             <p><strong>Sæson</strong></br>1. april - 1. oktober</p>
-            <p><strong>Mandag-Fredag</strong> - 6:30-17:00</p>
-            <p><strong>Lørdag-Søndag</strong> - 6:30-15:00</p>
-
-        </div>
+            <p><span itemprop="openingHours" content="Mo-Fr 06:30-17:00"><strong>Mandag-Fredag</strong> - 6:30-17:00</span></p>
+            <p><span itemprop="openingHours" content="Sa, Su 06:30-15:00"><strong>Lørdag-Søndag</strong> - 6:30-15:00</span></p>
+        </address>
         <div class="footerIndhold">
-            <h3>Præstø Camping</h3>
-            <p>Vi har også Præstø Camping, som ligger 15 km. fra Vordingborg. En lille hyggelig plads med gode faciliteter, tæt på centrum. </br> <a href="http://praesto-camping.dk/" target="_blank">Læs mere her</a> </p>
+            <h3 itemprop="name">Præstø Camping</h3>
+            <p><span itemprop="description">Vi har også Præstø Camping, som ligger 15 km. fra Vordingborg. En lille hyggelig plads med gode faciliteter, tæt på centrum. </br> <a href="http://praesto-camping.dk/" target="_blank">Læs mere her</a></span></p>
         </div>
     </div>
     <div class="linebreakFooter"></div>
     <div class="footerCopySocial">
         <p><i class="far fa-copyright"></i>  Copyright 2018 FabFive - All rights reserved</p>
-        <div class="socialeIkoner">
+        <nav class="socialeIkoner">
             <a href="https://www.facebook.com/Ore-Strand-Camping-2141747012779147/" target="_blank"><i class="fab fa-facebook-square"></i></a>
             <a href="https://www.instagram.com/orestrandcamping/?hl=da" target="_blank"><i class="fab fa-instagram"></i></a>
-        </div>
+        </nav>
     </div>
-
-
-
 </footer>
 
 
