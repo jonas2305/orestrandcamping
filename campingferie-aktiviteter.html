@@ -13,12 +13,24 @@
     </script>
 
     <meta charset="UTF-8">
-    <title>Kontakt - Ore Strand Camping</title>
-    <meta name="description" content="Kontakt for overnatninger i vores hytter og campingpladser.">
+    <title>Campingferie med aktiviteter - Ore Strand Camping</title>
+    <meta name="description" content="Campingferie med aktiviteter, strand, minigolf og hygge for familier, voksne og børn.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="scss/finalStyle.css">
     <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Comfortaa|Dosis:400,600" rel="stylesheet">
+
+    <!--Meta data til sociale medier-->
+    <meta property="og:title" content="Campingferie med aktiviteter - Ore Strand Camping" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://www.orestrandcamping.dk/aktiviteter" />
+    <meta property="og:image" content="http://www.orestrandcamping.dk/images/stemningsbilleder/OreStrandCampingWEB-9242.jpg" />
+    <meta property="og:description" content="Campingferie med aktiviteter, strand, minigolf og hygge for familier, voksne og børn" />
+    <meta property="og:locale" content="da_dk" />
+
+    <!--FAVICON-->
+    <link rel="icon" type="image/x-icon" href="http://bondejonas.dk/orestrandcamping/logoFavican32x32-02.png" />
+
 </head>
 <body>
 
@@ -53,76 +65,60 @@
             <!--Menupunkter-->
             <div class="topnavContent">
                 <a href="index.html">Forside</a>
-                <a href="priser.html">Priser</a>
+                <a href="priser-paa-campingferie-overnatniner.html">Priser</a>
                 <!--Div med underpunkter
                 Det første punkt bliver vist, og de næste kun ved hovereffekt. Alle vises på mobil-->
                 <div class="menuExpand">
-                    <a class="menuExpandFixed" href="aktiviteter.html">Aktiviteter</a>
-                    <a class="menuExpandHide" href="aktiviteterpaapladsen.html">- På pladsen</a>
-                    <a class="menuExpandHide" href="sevaerdigheder.html">- Seværdigheder</a>
+                    <a class="menuExpandFixed menuActive" href="campingferie-aktiviteter.html">Aktiviteter</a>
+                    <a class="menuExpandHide" href="ferie-aktiviteter-paa-pladsen.html">- På pladsen</a>
+                    <a class="menuExpandHide" href="campingferie-med-sevaerdigheder.html">- Seværdigheder</a>
                 </div>
-                <a href="faciliteter.html">Faciliteter</a>
-                <a href="rundvisning.html">Rundvisning</a>
+                <a href="faciliteter-paa-campingferie.html">Faciliteter</a>
+                <a href="rundvisning-af-campingpladser.html">Rundvisning</a>
                 <!--Div med underpunkter
                 Det første punkt bliver vist, og de næste kun ved hovereffekt. Alle vises på mobil-->
                 <div class="menuExpand menuExpandKontakt">
-                    <a class="menuExpandFixed menuActive" href="kontakt.html">Kontakt</a>
-                    <a class="menuExpandHide" href="findosher.html">- Find os her / åbningstider</a>
-                    <a class="menuExpandHide" href="omos.html">- Om os</a>
+                    <a class="menuExpandFixed" href="kontakt-for-overnatninger.html">Kontakt</a>
+                    <a class="menuExpandHide" href="find-os-her.html">- Find os her / åbningstider</a>
+                    <a class="menuExpandHide" href="om-os.html">- Om os</a>
                 </div>
             </div>
         </div>
     </nav>
 </header>
 
-
+<!--MAIN INDHOLD PÅ SIDEN-->
 <main class="mainMargin">
 
     <!--Sidetitel i toppen af siden med billede-->
     <section class="sidetitel" id="sideTitelFindOsHer" itemscope itemtype="http://schema.org/ImageObject" itemprop="keywords" content="Ore Strand Camping">
         <div class="sidetiteloverskrift">
-            <h1 itemprop="name">Kontakt</h1>
+            <h1 itemprop="name">Aktiviteter</h1>
         </div>
     </section>
 
-    <form class="kontaktForm" method="get">
-        <h2>Send os en besked</h2>
-        <div class="formInput">
-            <div class="formInfo">
-                <label>Navn*</label></br>
-                <input type="text" name="name" required></br></br>
-
-                <label>Emne</label></br>
-                <input type="text" name="subject"></br></br>
-
-                <label>Telefonnummer</label></br>
-                <input type="tel" name="tel"></br></br>
-
-                <label>Email*</label></br>
-                <input type="email" name="email" required></br></br>
-            </div>
-            <div class="formMessage">
-                <label>Besked*</label></br>
-                <textarea name="message" rows="7" required></textarea></br></br>
-            </div>
-        </div>
-
-        <input type="submit" value="Send"></br></br>
-        <label>* Påkrævede felter</label>
-    </form>
-
-    <article class="indholdselement indholdselementReverse">
-        <div class="indholsbillede" id="fb4" itemscope itemtype="http://schema.org/ImageObject" itemprop="keywords" content="Hans Jørgen, Marianne, Ore Strand Camping, Ejere"></div>
+    <article class="indholdselement">
+        <div class="indholsbillede" id="ab1" itemscope itemtype="http://schema.org/ImageObject" itemprop="keywords" content="Fodbold, Multibane, Camping, Barn, Leg, Underholdning, Aktiviteter"></div>
         <div class="indholdstekst">
-            <h2 itemprop="name">Velkommen til</h2>
-            <p itemprop="description">Ore Strand Camping er en lille familiedrevet campingplads og du vil altid blive mødt af et smil og gerne også en hyggelig sludder.
-                </br>- Hans Jørgen & Marianne</p>
-            <a class="btnBig" href="omos.html">Læs mere her</a>
+            <h2 itemprop="name">Aktiviteter på pladsen</h2>
+            <p itemprop="description">Vi har massere af ferie aktiviteter på campingpladsen. Der er rig mulighed for underholdning til børn og
+                voksne i alle aldre. Derudover har vi en lækker strand, med en badebro, der fører direkte ud til den reneste sandstrand. Det er et besøg værd! </p>
+            <a class="btnBig" href="ferie-aktiviteter-paa-pladsen.html">Læs mere her</a>
+        </div>
+    </article>
+    <article class="indholdselement indholdselementReverse">
+        <div class="indholsbillede" id="ab2" itemscope itemtype="http://schema.org/ImageObject" itemprop="keywords" content="Barn, Sten, Strand, Campingplads, Ore, Telt"></div>
+        <div class="indholdstekst">
+            <h2 itemprop="name">Aktiviteter uden for pladsen</h2>
+            <p itemprop="description">Sjælland og Lolland-Falster er fyldt med store oplevelser. Der er massere af turistattraktioner, og over 60 af dem ligger inden for 30 minutters kørsel! </p>
+            <a class="btnBig" href="rundvisning-af-campingpladser.html">Læs mere her</a>
         </div>
     </article>
 
 
+
 </main>
+
 
 
 <!--FOOTER-->

@@ -13,12 +13,24 @@
     </script>
 
     <meta charset="UTF-8">
-    <title>Aktiviteter på campingpladsen - Ore Strand Camping</title>
-    <meta name="description" content="Campingpladser og ferie med aktiviteter for familier, voksne og børn.">
+    <title>Kontakt - Ore Strand Camping</title>
+    <meta name="description" content="Kontakt for overnatninger i vores hytter og campingpladser.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="scss/finalStyle.css">
     <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Comfortaa|Dosis:400,600" rel="stylesheet">
+
+    <!--Meta data til sociale medier-->
+    <meta property="og:title" content="Kontakt - Ore Strand Camping" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://www.orestrandcamping.dk/kontakt" />
+    <meta property="og:image" content="http://www.orestrandcamping.dk/images/stemningsbilleder/OreStrandCampingWEB-9242.jpg" />
+    <meta property="og:description" content="Kontakt for overnatninger i vores hytter og campingpladser" />
+    <meta property="og:locale" content="da_dk" />
+
+    <!--FAVICON-->
+    <link rel="icon" type="image/x-icon" href="http://bondejonas.dk/orestrandcamping/logoFavican32x32-02.png" />
+
 </head>
 <body>
 
@@ -53,92 +65,79 @@
             <!--Menupunkter-->
             <div class="topnavContent">
                 <a href="index.html">Forside</a>
-                <a href="priser.html">Priser</a>
+                <a href="priser-paa-campingferie-overnatniner.html">Priser</a>
                 <!--Div med underpunkter
                 Det første punkt bliver vist, og de næste kun ved hovereffekt. Alle vises på mobil-->
                 <div class="menuExpand">
-                    <a class="menuExpandFixed menuActive" href="aktiviteter.html">Aktiviteter</a>
-                    <a class="menuExpandHide" href="aktiviteterpaapladsen.html">- På pladsen</a>
-                    <a class="menuExpandHide" href="sevaerdigheder.html">- Seværdigheder</a>
+                    <a class="menuExpandFixed" href="campingferie-aktiviteter.html">Aktiviteter</a>
+                    <a class="menuExpandHide" href="ferie-aktiviteter-paa-pladsen.html">- På pladsen</a>
+                    <a class="menuExpandHide" href="campingferie-med-sevaerdigheder.html">- Seværdigheder</a>
                 </div>
-                <a href="faciliteter.html">Faciliteter</a>
-                <a href="rundvisning.html">Rundvisning</a>
+                <a href="faciliteter-paa-campingferie.html">Faciliteter</a>
+                <a href="rundvisning-af-campingpladser.html">Rundvisning</a>
                 <!--Div med underpunkter
                 Det første punkt bliver vist, og de næste kun ved hovereffekt. Alle vises på mobil-->
                 <div class="menuExpand menuExpandKontakt">
-                    <a class="menuExpandFixed" href="kontakt.html">Kontakt</a>
-                    <a class="menuExpandHide" href="findosher.html">- Find os her / åbningstider</a>
-                    <a class="menuExpandHide" href="omos.html">- Om os</a>
+                    <a class="menuExpandFixed menuActive" href="kontakt-for-overnatninger.html">Kontakt</a>
+                    <a class="menuExpandHide" href="find-os-her.html">- Find os her / åbningstider</a>
+                    <a class="menuExpandHide" href="om-os.html">- Om os</a>
                 </div>
             </div>
         </div>
     </nav>
 </header>
 
-<!--MAIN INDHOLD PÅ SIDEN-->
+
 <main class="mainMargin">
 
     <!--Sidetitel i toppen af siden med billede-->
     <section class="sidetitel" id="sideTitelFindOsHer" itemscope itemtype="http://schema.org/ImageObject" itemprop="keywords" content="Ore Strand Camping">
         <div class="sidetiteloverskrift">
-            <h1 itemprop="name">Aktiviteter på pladsen</h1>
+            <h1 itemprop="name">Kontakt</h1>
         </div>
     </section>
 
-    <article class="indholdselement">
-        <div class="indholsbillede" id="apb1" itemscope itemtype="http://schema.org/ImageObject" itemprop="keywords" content="Minigolf">
-        </div>
-        <div class="indholdstekst">
-            <h2 itemprop="name">Minigolf</h2>
-            <p itemprop="description">Ved vores campingpladser har vi den hyggeligste lille minigolfbane med 12 huller. Det er helt gratis at spille så afhold en lille konkurrence
-                indbyrdes i familien eller mod andre på pladsen og skyd et par bolde. <br>Minigolfbanen er for alle aldre så kom og vær med!<br><br>
-                Tag på rundtur med Hans Jørgen, og se alle <a href="rundvisning.html">ferie aktiviteterne på video her.</a></p>
+    <form class="kontaktForm" method="get">
+        <h2>Send os en besked</h2>
+        <div class="formInput">
+            <div class="formInfo">
+                <label>Navn*</label></br>
+                <input type="text" name="name" required></br></br>
+
+                <label>Emne</label></br>
+                <input type="text" name="subject"></br></br>
+
+                <label>Telefonnummer</label></br>
+                <input type="tel" name="tel"></br></br>
+
+                <label>Email*</label></br>
+                <input type="email" name="email" required></br></br>
             </div>
-    </article>
+            <div class="formMessage">
+                <label>Besked*</label></br>
+                <textarea name="message" rows="7" required></textarea></br></br>
+            </div>
+        </div>
+
+        <input type="submit" value="Send"></br></br>
+        <label>* Påkrævede felter</label>
+    </form>
+
     <article class="indholdselement indholdselementReverse">
-        <div class="indholsbillede" id="apb2" itemscope itemtype="http://schema.org/ImageObject" itemprop="keywords" content="Fodbold, Basketball, Aktiviteter, Multibane, Underholdning">
-        </div>
+        <div class="indholsbillede" id="fb4" itemscope itemtype="http://schema.org/ImageObject" itemprop="keywords" content="Hans Jørgen, Marianne, Ore Strand Camping, Ejere"></div>
         <div class="indholdstekst">
-            <h2 itemprop="name">Multibane</h2>
-            <p itemprop="description">Vi har en multibane med en masse sjove aktiviteter til din campingferie. Der er både en fodboldbane, basketballbane, kæmpe gynge, hoppepude, mooncars og kæmpe
-                legoklodser. Der er noget for enhver smag og for alle aldre. <br>Desuden ligger multibanen lige ved siden af kiosken, så når man har scoret det
-                vindende mål, kan man smutte forbi og købe en lækker is.<br><br>
-                Tag på rundtur med Hans Jørgen, og se alle <a href="rundvisning.html">aktiviteterne på video her.</a></p> </p>
+            <h2 itemprop="name">Velkommen til</h2>
+            <p itemprop="description">Ore Strand Camping er en lille familiedrevet campingplads og du vil altid blive mødt af et smil og gerne også en hyggelig sludder.
+                </br>- Hans Jørgen & Marianne</p>
+            <a class="btnBig" href="om-os.html">Læs mere her</a>
         </div>
     </article>
-    <article class="indholdselement">
-        <div class="indholsbillede" id="apb3" itemscope itemtype="http://schema.org/ImageObject" itemprop="keywords" content="Legeplads, Børn, Sandkasse">
-        </div>
-        <div class="indholdstekst">
-            <h2 itemprop="name">Legeplads</h2>
-            <p itemprop="description">Vi har også en legeplads for de mindre med kæmpe sandkasse, graveko, pæle til at gå på line og et fint legehus. <br>Her kan børnene lege og hygge
-                sig med nogle af de andre børn på pladsen, mens forældrene kan nyde omgivelserne og slappe af på deres ferie.<br><br>
-                Tag på rundtur med Hans Jørgen, og se alle <a href="rundvisning.html">aktiviteterne på video her.</a></p></p>
-        </div>
-    </article>
-    <article class="indholdselement indholdselementReverse">
-        <div class="indholsbillede" id="apb4" itemscope itemtype="http://schema.org/ImageObject" itemprop="keywords" content="Hav, Strand, Badning, Bade, Person, Mand"></div>
-        <div class="indholdstekst">
-            <h2 itemprop="name">Badning</h2>
-            <p itemprop="description">Langs Ore Strand Camping er der en dejlig strand, der indbyder til en dukkert på alle tider af døgnet. <br>Badebroer langs hele strækningen sørger
-                for, at du kan komme en tur i det dejlige vand uden at få tang på tæerne.<br><br>
-                Tag på rundtur med Hans Jørgen, og se alle <a href="rundvisning.html">aktiviteterne på video her.</a></p> </p>
-        </div>
-    </article>
-    <article class="indholdselement">
-        <div class="indholsbillede" id="apb5" itemscope itemtype="http://schema.org/ImageObject" itemprop="keywords" content="Hav, Strand, Sol, Solnedgang, Natur, Ore">
-        </div>
-        <div class="indholdstekst">
-            <h2 itemprop="name">Natur og fiskeri</h2>
-            <p itemprop="description">Rund om Ore Strand Camping ligger det dejligste naturområde med massere af hyggelige ruter. Der er mulighed for lange gåture og flotte solnedgange.
-                <br> Strækningen omkring Ore Strand Camping er også yderst indbydende til fiskeri.<br><br>
-                Tag på rundtur med Hans Jørgen, og se alle <a href="rundvisning.html">aktiviteterne på video her.</a></p></p>
-        </div>
-    </article>
+
+
 </main>
 
 
-
+<!--FOOTER-->
 <footer>
     <div class="footerInformationer">
         <figure class="footerIndhold">
