@@ -13,6 +13,7 @@
 
 <!--HEADER-->
 <header>
+    <!--Logo til Mobil-->
     <nav class="logo-mobil">
         <figure>
             <a href="index.html" class="logo">
@@ -20,6 +21,7 @@
             </a>
         </figure>
     </nav>
+    <!--Logo til WEB-->
     <nav class="logo-web">
         <figure>
             <a href="index.html" class="logo">
@@ -27,25 +29,34 @@
             </a>
         </figure>
     </nav>
+    <!--Selve navigationen-->
     <nav class="topnav" id="myTopnav">
+        <!--Menuknap til burgermenu-->
         <div class="menuknap">
             <i class="fas fa-bars"></i>
         </div>
+        <!--Menu-->
         <div class="topnavContentWrapper">
+            <!--Lukkeknap til burgermenu-->
             <i class="fas fa-times burgermenuClose"></i>
+            <!--Menupunkter-->
             <div class="topnavContent">
                 <a href="index.html">Forside</a>
                 <a href="priser.html">Priser</a>
+                <!--Div med underpunkter
+                Det første punkt bliver vist, og de næste kun ved hovereffekt. Alle vises på mobil-->
                 <div class="menuExpand">
                     <a class="menuExpandFixed" href="aktiviteter.html">Aktiviteter</a>
                     <a class="menuExpandHide" href="aktiviteterpaapladsen.html">- På pladsen</a>
-                    <a class="menuExpandHide" href="aktiviteterudenforpladsen.html">- Uden for pladsen</a>
+                    <a class="menuExpandHide" href="sevaerdigheder.html">- Seværdigheder</a>
                 </div>
                 <a href="faciliteter.html">Faciliteter</a>
                 <a href="rundvisning.html">Rundvisning</a>
+                <!--Div med underpunkter
+                Det første punkt bliver vist, og de næste kun ved hovereffekt. Alle vises på mobil-->
                 <div class="menuExpand menuExpandKontakt">
-                    <a class="menuExpandFixed menuActive" href="findssher.html">Kontakt</a>
-                    <a class="menuExpandHide" href="findssher.html">- Find os her / åbningstider</a>
+                    <a class="menuExpandFixed menuActive" href="kontakt.html">Kontakt</a>
+                    <a class="menuExpandHide" href="findosher.html">- Find os her / åbningstider</a>
                     <a class="menuExpandHide" href="omos.html">- Om os</a>
                 </div>
             </div>
@@ -57,8 +68,8 @@
 <main class="mainMargin">
 
 
-    <section class="sidetitel">
-        <img src="images/stemningsbilleder/OreStrandCampingWEB-7841.jpg" itemscope itemtype="http://schema.org/ImageObject" itemprop="keywords" content="Ore Strand Camping, Ejere, Hans Jørgen, Marianne">
+    <!--Sidetitel i toppen af siden med billede-->
+    <section class="sidetitel" id="sideTitelFindOsHer" itemscope itemtype="http://schema.org/ImageObject" itemprop="keywords" content="Ore Strand Camping">
         <div class="sidetiteloverskrift">
             <h1 itemprop="name">Om os</h1>
         </div>

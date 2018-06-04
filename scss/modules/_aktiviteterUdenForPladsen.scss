@@ -22,19 +22,16 @@
 .aktivitetElementWrapper{
   display: flex;
   flex-wrap: wrap;
+  margin: 1.5em -7px;
   .aktivitetElement{
     background-color: $color-pri-lightblue;
     padding: 20px;
     width: 180px;
     margin: 10px;
-
     //Kasper - Centrerer knapper
     flex-direction: column;
     justify-content: space-between;
     display: flex;
-
-
-
     h3{
       margin: 5px 0;
     }

@@ -84,11 +84,11 @@ form label {
   left: 0;
   z-index: -1;
   height: 50%;
-  overflow: hidden; }
-  .sidetitel img {
-    width: 110%;
-    position: relative;
-    float: right; }
+  width: 100%;
+  background-image: url("http://bondejonas.dk/billederTilDiverseProjekter/OreStrandCampingCoverWEB-7841.jpg");
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat; }
   .sidetitel .sidetiteloverskrift {
     position: absolute;
     bottom: 0px;
@@ -120,9 +120,6 @@ form label {
 
 .mainMargin {
   margin-top: 40vh; }
-
-.rundvisning {
-  margin-top: 0 !important; }
 
 @media screen and (min-width: 700px) {
   .indholdselementReverse {
@@ -210,7 +207,6 @@ footer {
   .googleMaps {
     width: 80%; } }
 header {
-  background-color: white;
   padding-bottom: 15px; }
   header figure {
     margin: 0; }
@@ -309,22 +305,22 @@ header {
             header .topnav .topnavContentWrapper .topnavContent .menuExpand .menuExpandFixed {
               position: relative; }
             header .topnav .topnavContentWrapper .topnavContent .menuExpand .menuExpandHide {
-              font-size: 1em !important;
+              font-size: 0.9em !important;
               background-color: white;
               padding: 12px !important;
               display: none; }
               header .topnav .topnavContentWrapper .topnavContent .menuExpand .menuExpandHide:hover {
                 background-color: #BEDCCE; }
             header .topnav .topnavContentWrapper .topnavContent .menuExpand:hover {
-              transform: translate(0, 30.5%); }
+              transform: translate(0, 27.5%); }
               header .topnav .topnavContentWrapper .topnavContent .menuExpand:hover .menuExpandHide {
                 display: block; }
             header .topnav .topnavContentWrapper .topnavContent .menuExpand a {
-              width: 90px; }
+              width: 95px; }
           header .topnav .topnavContentWrapper .topnavContent .menuActive {
             color: #44586C; }
           header .topnav .topnavContentWrapper .topnavContent .menuExpandKontakt:hover {
-            transform: translate(0, 30.5%); }
+            transform: translate(0, 29.5%); }
           header .topnav .topnavContentWrapper .topnavContent a {
             font-size: 1.5em !important;
             padding: 20px !important;
@@ -534,7 +530,8 @@ header {
 
 .aktivitetElementWrapper {
   display: flex;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  margin: 1.5em -7px; }
   .aktivitetElementWrapper .aktivitetElement {
     background-color: #BEDCCE;
     padding: 20px;
