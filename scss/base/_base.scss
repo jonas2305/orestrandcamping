@@ -180,8 +180,8 @@ form{
     flex-direction: row;
     width: 80%;
     .indholdstekst{
-      width: 30%;
-      margin: 5% 10%;
+      width: 40%;
+      margin: 5% 5%;
     }
 
     //Kasper
@@ -200,21 +200,7 @@ form{
 
 }
 
-@media screen and(min-width: 900px) {
 
-  .sidetitelVideo{
-    top: 153px;
-  }
-
-  .videoerMobil{
-    display: none;
-  }
-
-  .kortPC{
-    display: block !important;
-  }
-
-}
 
 @media screen and(min-width: 1400px) {
 

@@ -29,8 +29,10 @@
 
 .introVideo{
   display: flex;
+  flex-direction: column;
   justify-content: center;
-
+  margin: auto;
+  width: 900px;
   iframe{
     width: 900px;
     height: 506px;
@@ -143,5 +145,18 @@
   #dotTi{
     top: 210px;
     left: 834px;
+  }
+}
+
+
+@media screen and(min-width: 900px) {
+  .sidetitelVideo{
+    top: 153px;
+  }
+  .videoerMobil{
+    display: none;
+  }
+  .kortPC{
+    display: block !important;
   }
 }

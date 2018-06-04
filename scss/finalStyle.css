@@ -129,8 +129,8 @@ form label {
     flex-direction: row;
     width: 80%; }
     .indholdselement .indholdstekst {
-      width: 30%;
-      margin: 5% 10%; }
+      width: 40%;
+      margin: 5% 5%; }
     .indholdselement .indholsbillede {
       width: 50%;
       height: auto; }
@@ -140,15 +140,6 @@ form label {
 
   .sidetitelVideo {
     display: block; } }
-@media screen and (min-width: 900px) {
-  .sidetitelVideo {
-    top: 153px; }
-
-  .videoerMobil {
-    display: none; }
-
-  .kortPC {
-    display: block !important; } }
 @media screen and (min-width: 1400px) {
   main {
     margin: 57vh 10% 0 10%; } }
@@ -350,7 +341,10 @@ header {
 
 .introVideo {
   display: flex;
-  justify-content: center; }
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  width: 900px; }
   .introVideo iframe {
     width: 900px;
     height: 506px; }
@@ -444,6 +438,15 @@ header {
     top: 210px;
     left: 834px; }
 
+@media screen and (min-width: 900px) {
+  .sidetitelVideo {
+    top: 153px; }
+
+  .videoerMobil {
+    display: none; }
+
+  .kortPC {
+    display: block !important; } }
 #fb1 {
   background-image: url("http://www.kjproductions.dk/projekter/sem2eksamen/images/stemningsbilleder/OreStrandCampingWEB-9242.jpg"); }
 
