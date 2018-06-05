@@ -21,6 +21,12 @@ footer{
         margin-top: 28px;
       }
     }
+
+    address{
+      h3, p{
+        font-style: normal;
+      }
+    }
   }
   .linebreakFooter{
     background-color: $color-pri-darkblue;

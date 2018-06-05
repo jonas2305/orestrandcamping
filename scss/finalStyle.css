@@ -161,6 +161,8 @@ footer {
         width: 100%;
         max-width: 220px;
         margin-top: 28px; }
+    footer .footerInformationer address h3, footer .footerInformationer address p {
+      font-style: normal; }
   footer .linebreakFooter {
     background-color: #44586C;
     height: 1px;
@@ -459,6 +461,9 @@ header {
 #fb4 {
   background-image: url("http://www.kjproductions.dk/projekter/sem2eksamen/images/stemningsbilleder/OreStrandCampingWEB-7646.jpg"); }
 
+#fb5 {
+  background-image: url("http://www.kjproductions.dk/projekter/sem2eksamen/images/stemningsbilleder/OreStrandCampingWEB-9653.jpg"); }
+
 #pb1 {
   background-image: url("http://bondejonas.dk/billederTilDiverseProjekter/OreStrandCampingCampingvogn.jpg"); }
 
@@ -505,16 +510,16 @@ header {
   background-image: url("http://bondejonas.dk/billederTilDiverseProjekter/OreStrandCampingBadebro.jpg"); }
 
 #fab1 {
-  background-image: url("http://bondejonas.dk/billederTilDiverseProjekter/OreStrandCampingVelkommen.jpg"); }
+  background-image: url("http://www.kjproductions.dk/projekter/sem2eksamen/images/stemningsbilleder/OreStrandCampingWEB-6461.jpg"); }
 
 #fab2 {
-  background-image: url("http://bondejonas.dk/billederTilDiverseProjekter/OreStrandCampingVelkommen.jpg"); }
+  background-image: url("http://www.kjproductions.dk/projekter/sem2eksamen/images/stemningsbilleder/OreStrandCampingWEB-6470.jpg"); }
 
 #fab3 {
-  background-image: url("http://bondejonas.dk/billederTilDiverseProjekter/OreStrandCampingVelkommen.jpg"); }
+  background-image: url("http://www.kjproductions.dk/projekter/sem2eksamen/images/stemningsbilleder/OreStrandCampingWEB-6454.jpg"); }
 
 #fab4 {
-  background-image: url("http://bondejonas.dk/billederTilDiverseProjekter/OreStrandCampingVelkommen.jpg"); }
+  background-image: url("http://www.kjproductions.dk/projekter/sem2eksamen/images/stemningsbilleder/OreStrandCampingWEB-7595.jpg"); }
 
 .aktiviteterUdenForPladsen {
   width: 80%;
